@@ -336,16 +336,16 @@ export function PerformanceSystem() {
         <h2 className="reveal mb-4 text-center text-4xl font-bold tracking-tight sm:text-5xl">A performance system built for a lifetime</h2>
         <p className="reveal mx-auto mb-12 max-w-xl text-center text-lg text-[#5d6c7b]">This is more than a machine. It is a long-term investment in your health, your focus, and your recovery. Backed by medical grade technology and dedicated expert support from PeakSpring.</p>
         <div className="grid gap-5 sm:grid-cols-3">
-                  {[
-                    {t:"Personalized 1-on-1 Consultation",icon:`${CDN}/69798387493c019bcbc17084_performance_icon_1.svg`},
-                    {t:"Ongoing Expert Service & Support",icon:`${CDN}/69798387493c019bcbc17083_performance_icon_2.svg`},
-                    {t:"Performance Optimization Checkups",icon:`${CDN}/69798387493c019bcbc17085_performance_icon_3.svg`},
-                  ].map((c,i)=>(
-                    <div key={c.t} className="reveal rounded-[20px] border border-gray-100 bg-[#fafafa] p-8 text-center hover:-translate-y-1 hover:border-[#b2945e] transition-all">
+          {[
+            {t:"Personalized 1-on-1 Consultation",icon:`${CDN}/69798387493c019bcbc17084_performance_icon_1.svg`},
+            {t:"Ongoing Expert Service & Support",icon:`${CDN}/69798387493c019bcbc17083_performance_icon_2.svg`},
+            {t:"Performance Optimization Checkups",icon:`${CDN}/69798387493c019bcbc17085_performance_icon_3.svg`},
+          ].map((c,i)=>(
+            <div key={c.t} className="reveal rounded-[20px] border border-gray-100 bg-[#fafafa] p-8 text-center hover:-translate-y-1 hover:border-[#b2945e] transition-all">
                       <img src={c.icon} alt="" className="mx-auto mb-3 h-12 w-12" />
                       <p className="mt-2 font-semibold">{c.t}</p>
-                    </div>
-                  ))}
+            </div>
+          ))}
         </div>
         <div className="reveal mt-10 text-center">
           <a href="/contact" className="inline-flex rounded-[4.5rem] bg-[#175a6b] px-5 py-3 text-[1.0625rem] font-semibold text-white hover:bg-[#08303a] transition-colors shadow-lg">Book a Free Consultation</a>
