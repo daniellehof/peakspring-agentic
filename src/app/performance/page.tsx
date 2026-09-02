@@ -56,7 +56,7 @@ export default function PerformancePage() {
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Performance Impact: What the <span className="text-[#b2945e]">Research</span> shows</h2>
             <p className="text-sm text-[#b2945e]">All figures from peer-reviewed studies on trained athletes. Full sources available in our Engineered Hydration Report.</p>
             <div className="grid grid-cols-2 gap-4 mt-4">
-              {[{icon:`${CDN}/697b66f103c1f444c0b1072a_features-icons-3.svg`,stat:"30%",label:"↓ Blood Lactate Faster Recovery"},{icon:`${CDN}/69798387493c019bcbc1707a_peakliving_icon_2.svg`,stat:"15%",label:"Less Effort, Same Output"}].map(c=>(
+              {[{icon:`${CDN}/697b66f103c1f444c0b1072a_features-icons-3.svg`,stat:"Peak power output",label:"↓ Blood Lactate Faster Recovery"},{icon:`${CDN}/69798387493c019bcbc1707a_peakliving_icon_2.svg`,stat:"Mean Power Output",label:"Less Effort, Same Output"}].map(c=>(
                 <div key={c.label} className="rounded-xl bg-white p-5 shadow-sm text-center">
                   <img src={c.icon} alt="" className="mx-auto mb-3 h-10 w-10"/>
                   <span className="block text-3xl font-bold text-[#175a6b]">{c.stat}</span>
@@ -79,7 +79,7 @@ export default function PerformancePage() {
           <div className="reveal space-y-4">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Biohack Your Recovery at the <span className="text-[#b2945e]">Cellular Level.</span></h2>
             <p className="text-base leading-relaxed text-[#5d6c7b]">During intense effort, your body produces reactive oxygen species (ROS). In small amounts they are essential signals for adaptation. In excess, they cause inflammation, slow recovery, and accelerate the aging of your cells.</p>
-            <p className="text-base leading-relaxed text-[#5d6c7b]">Most antioxidant supplements neutralize ROS indiscriminately. High-dose vitamin C and E suppress the adaptive signal you trained for. H₂ is different. It selectively neutralizes only the cytotoxic free radicals, the ones that cause damage. The signal that builds muscle, strength, and capacity is preserved. It is also the only antioxidant small enough to cross the blood-brain barrier.</p>
+            <p className="text-base leading-relaxed text-[#5d6c7b]">Most antioxidant supplements neutralize ROS indiscriminately. High-dose vitamin C and E suppress the adaptive signal you trained for. H₂ is different. It selectively neutralizes only the cytotoxic free radicals, the ones that cause damage. The signal that builds muscle, strength, and capacity is preserved. It is also the only antioxidant small enough to cross the blood-brain barrier. It is also the only antioxidant small enough to cross the blood-brain barrier.</p>
             <div className="flex gap-4">
               {[{icon:`${CDN}/69798387493c019bcbc1707e_truth_icon_1.svg`,t:"Penetrates the Cell Membrane"},{icon:`${CDN}/69798387493c019bcbc17081_truth_icon_2.svg`,t:"Selective, Not Suppressive"}].map(c=>(
                 <div key={c.t} className="flex items-center gap-2 rounded-xl bg-white p-3 shadow-sm"><img src={c.icon} alt="" className="h-6 w-6"/><span className="text-sm font-semibold text-[#175a6b]">{c.t}</span></div>
@@ -96,7 +96,7 @@ export default function PerformancePage() {
         <h2 className="reveal mb-2 text-4xl font-bold tracking-tight sm:text-5xl">How to use it. A structured <span className="text-[#b2945e]">Protocol.</span></h2>
         <p className="reveal mb-10 text-lg text-[#5d6c7b]">For best results, drink 1.5 to 2.5 litres daily. Timed around your training for maximum effect.</p>
         <div className="grid gap-6 md:grid-cols-2">
-          {[{t:"Pre-Workout",d:"10–30 min before effort",img:`${CDN}/6a25d76d7b716ffce3715afb_schoen%20klein.jpg`},{t:"Post-Workout",d:"Within the first hour",img:`${CDN}/697b66f103c1f444c0b1072a_features-icons-3.svg`}].map(c=>(
+          {[{t:"Pre-Training",d:"10–30 min before effort",img:`${CDN}/6a25d76d7b716ffce3715afb_schoen%20klein.jpg`},{t:"Post-Training",d:"Within the first hour",img:`${CDN}/697b66f103c1f444c0b1072a_features-icons-3.svg`}].map(c=>(
             <div key={c.t} className="reveal rounded-[20px] border bg-white p-8 flex gap-4 items-center shadow-sm">
               <img src={c.img} alt="" className="h-16 w-16 rounded-xl object-cover"/>
               <div><h3 className="text-xl font-bold">{c.t}</h3><p className="text-sm text-[#5d6c7b]">{c.d}</p></div>

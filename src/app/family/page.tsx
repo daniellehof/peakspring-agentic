@@ -18,7 +18,8 @@ export default function FamilyPage() {
       <div className="relative z-[2] mx-auto mb-[4.6875rem] w-full max-w-[60.1875rem] px-[3.75rem]">
         <span className="inline-flex rounded-full border border-white/20 bg-white/5 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.15em] text-white/90 backdrop-blur-sm">For your home. For your family.</span>
         <h1 className="text-[3.5rem] font-bold leading-[1.2] tracking-tight text-white">Nourish what matters.</h1>
-        <p className="mt-2 max-w-[39.375rem] text-base leading-relaxed text-white/85 sm:text-lg">Protect your family with hydrogen-rich water engineered to ISO 13485 medical device standards. From pesticide-free produce to chemical-free cleaning, one machine transforms how your household lives.</p>
+        <p className="mt-2 max-w-[39.375rem] text-base leading-relaxed text-white/85 sm:text-lg">Water is the foundation of your family's health. Most tap water has been stripped of what makes it truly hydrating. PeakSpring restores water to its natural, living state. Hydrogen-rich water engineered to ISO 13485 medical device standards, tailored to protect what matters most.</p>
+        <div className="mt-4 mb-4 flex items-center"><span className="text-sm font-medium text-white/90">100K+ people already made the switch.</span></div>
         <a href="/contact" className="mt-6 inline-flex rounded-[4.5rem] bg-[#b2945e] px-5 py-3 text-[1.0625rem] font-semibold text-white hover:bg-[#9a7c4a] transition-colors shadow-xl">Book a Free Consultation</a>
       </div>
     </section>
@@ -33,7 +34,7 @@ export default function FamilyPage() {
           <div className="space-y-4">
             <p className="text-base leading-relaxed text-[#5d6c7b]">Standard filters are excellent at removing impurities, but that is only half the picture. Most filtration strips away essential minerals while leaving behind microplastics that pass straight through standard filter pores. The ionizer does both: it filters, then enriches.</p>
             <div className="grid grid-cols-2 gap-4 mt-4">
-              {[{t:"For Active Longevity",d:"Keep your natural vitality high. Hydrogen rich water supports cognitive clarity, sustained energy, and overall wellbeing as the years go on."},{t:"For Growing Bodies",d:"Children need more than just fluids. Hydrogen rich, mineral rich water supports hydration at the deepest level, without the sugar, additives, or plastic of bottled alternatives."}].map(c=>(
+              {[{t:"For Active Longevity",d:"Keep your natural vitality high. Hydrogen rich water supports cognitive clarity, sustained energy, and overall wellbeing. The Lifecycle Impact: Protect Your Family's Health, For Growing Minds, For Active Longevity."},{t:"For Growing Bodies",d:"Children need more than just fluids. Hydrogen rich, mineral rich water supports hydration at the deepest level, without the sugar, additives, or plastic of bottled alternatives."}].map(c=>(
                 <div key={c.t} className="rounded-2xl bg-[#f8fdff] p-5 border border-gray-100">
                   <h3 className="font-bold text-[#175a6b]">{c.t}</h3>
                   <p className="mt-2 text-sm text-[#5d6c7b]">{c.d}</p>

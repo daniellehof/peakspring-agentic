@@ -10,7 +10,7 @@ const CDN = "https://cdn.prod.website-files.com/69798387493c019bcbc16fc7";
 /* ═══════════════════════ HERO ═══════════════════════ */
 export function Hero() {
   return (
-    <section className="relative z-0 flex h-svh min-h-svh flex-col justify-end overflow-hidden">
+    <div className="relative z-0 flex h-svh min-h-svh flex-col justify-end overflow-hidden">
       <div className="absolute inset-0 z-0">
         <video autoPlay muted loop playsInline className="absolute inset-0 h-full w-full object-cover">
           <source src={`${CDN}%2F69a2bbca5ce26ae402fcebae_Banner%20Video%20v1.2%20%28smaller%29_mp4.mp4`} type="video/mp4"/>
@@ -31,7 +31,7 @@ export function Hero() {
         </div>
         <a href="/contact" className="inline-flex rounded-[4.5rem] bg-[#b2945e] px-5 py-3 text-[1.0625rem] font-semibold text-white shadow-xl hover:bg-[#9a7c4a] transition-colors">Book a Free Consultation</a>
       </div>
-    </section>
+    </div>
   );
 }
 
@@ -187,7 +187,7 @@ export function PhExperience() {
   return (
     <section className="section_home-ph py-20 lg:py-28">
       <div className="container-large padding-global">
-        <h2 className="reveal mb-4 text-4xl font-bold tracking-tight sm:text-5xl">Purposeful pH. <br/>A spectrum of possibilities.</h2>
+        <h2 className="reveal mb-4 text-4xl font-bold tracking-tight sm:text-5xl">Purposeful pH.</h2>
         <p className="reveal mb-4 max-w-xl text-lg text-[#5d6c7b]">Water is not static. It is a spectrum of possibilities. Enagic® has pioneered this technology for over 50 years. PeakSpring brings it to your home.</p>
         <div className="reveal mb-10 flex gap-2 text-sm font-semibold text-[#b2945e]">
           <span className="rounded-full bg-[#b2945e]/10 px-4 py-1">Acidic</span>
@@ -241,8 +241,7 @@ export function PotentialSlider() {
   return (
     <section className="section_home-fuelling-potential-slider py-20 lg:py-28">
       <div className="container-large padding-global">
-        <h2 className="reveal mb-1 max-w-2xl text-4xl font-bold tracking-tight sm:text-5xl">We invite you to watch and</h2>
-        <h2 className="reveal mb-4 max-w-2xl text-4xl font-bold tracking-tight sm:text-5xl">learn more</h2>
+        <p className="reveal mb-1 max-w-2xl text-4xl font-bold tracking-tight sm:text-5xl">We invite you to watch and <br/>learn more</p>
         <Swiper modules={[Navigation,Pagination]} spaceBetween={24} slidesPerView="auto" loop pagination={{clickable:true}} navigation className="!pb-12">
           {vids.map(v=>(
             <SwiperSlide key={v.t} className="!w-[300px]">
