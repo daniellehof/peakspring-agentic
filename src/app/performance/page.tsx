@@ -1,3 +1,5 @@
+"use client";
+
 import { Navbar } from "@/components/site/Navbar";
 import { Footer } from "@/components/site/Footer";
 import { FeatureGrid, PotentialSlider, BenefitsSlider, FaqAccordion } from "@/components/site/HomeSections";

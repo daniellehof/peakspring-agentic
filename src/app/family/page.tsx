@@ -1,8 +1,10 @@
+"use client";
+
 import { Navbar } from "@/components/site/Navbar";
 import { Footer } from "@/components/site/Footer";
 import { FeatureGrid, BenefitsSlider, FaqAccordion } from "@/components/site/HomeSections";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay, EffectFade } from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 import Link from "next/link";
 
 const CDN = "https://cdn.prod.website-files.com/69798387493c019bcbc16fc7";
