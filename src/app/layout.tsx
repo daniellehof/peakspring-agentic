@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { WhatsAppWidget } from "@/components/site/WhatsAppWidget";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -52,6 +53,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="min-h-screen bg-[#fafafa] font-body antialiased" style={{ fontFamily: "'Montserrat', Arial, sans-serif" }}>
         {children}
+        <WhatsAppWidget />
       </body>
     </html>
   );
