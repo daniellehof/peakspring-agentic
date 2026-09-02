@@ -97,7 +97,7 @@ export function PeakLiving() {
             <p className="text-base leading-relaxed text-[#5d6c7b] sm:text-lg">Your body is up to 70% water. But not all water performs equally. To fuel energy production and cellular repair, water needs to be absorbed efficiently at the cellular level. Factors like molecular hydrogen content, electrical charge, and mineral composition all influence how well your body can actually use the water you drink.</p>
             <p className="text-base leading-relaxed text-[#5d6c7b] sm:text-lg">Most tap and bottled water has been stripped of exactly these properties. Treated with chlorine, processed, and stored in plastic. What remains hydrates, but only on the surface. The ionizer restores what processing strips away: hydrogen rich water with a negative electrical charge that acts as a natural antioxidant, paired with essential minerals your body can absorb at the cellular level.</p>
             <div className="grid grid-cols-2 gap-4">
-              {[{icon:`${CDN}/699d90ee6e8bdc071fb0ad0b_Vector.svg`,t:"Sustain Cognitive Clarity"},{icon:`${CDN}/699d90ee3c6a83fb87c33c7f_Vector-1.svg`,t:"Defend Cellular Integrity"},{icon:`${CDN}/699d90ed6a5151c11d15216d_Group.svg`,t:"Restore Natural Structure"},{icon:`${CDN}/699d90edb451fb4d995a2a75_Group-1.svg`,t:"Build Daily Resilience"}].map(c=>(
+              {[{icon:`${CDN}/69798387493c019bcbc1707b_peakliving_icon_1.svg`,t:"Sustain Cognitive Clarity"},{icon:`${CDN}/69798387493c019bcbc1707a_peakliving_icon_2.svg`,t:"Defend Cellular Integrity"},{icon:`${CDN}/69798387493c019bcbc1707c_peakliving_icon_3.svg`,t:"Restore Natural Structure"},{icon:`${CDN}/69798387493c019bcbc17079_peakliving_icon_4.svg`,t:"Build Daily Resilience"}].map(c=>(
                 <div key={c.t} className="flex items-center gap-3 rounded-2xl bg-white/80 p-4 shadow-sm">
                   <img src={c.icon} alt="" className="h-8 w-8 shrink-0"/>
                   <span className="text-sm font-semibold text-[#175a6b]">{c.t}</span>
@@ -136,8 +136,7 @@ export function FeaturesSection() {
             ))}
           </div>
           <div className="reveal space-y-6">
-            <h2 className="text-3xl font-bold tracking-tight text-[#175a6b] sm:text-4xl">Not just a device.</h2>
-            <h2 className="text-3xl font-bold tracking-tight text-[#175a6b] sm:text-4xl">A new way of living.</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-[#175a6b] sm:text-4xl">Not just a device. <br/>A <span className="text-[#b2945e]">new way of living.</span></h2>
             <p className="text-base leading-relaxed text-[#5d6c7b] sm:text-lg">The machine is designed to be effortless. We handle the complexity of water chemistry so you can focus on the clarity of your day.</p>
             <a href="/contact" className="inline-flex rounded-[4.5rem] bg-[#175a6b] px-5 py-3 text-[1.0625rem] font-semibold text-white hover:bg-[#08303a] transition-colors shadow-lg">Book a Free Consultation</a>
           </div>
@@ -188,7 +187,7 @@ export function PhExperience() {
   return (
     <section className="section_home-ph py-20 lg:py-28">
       <div className="container-large padding-global">
-        <h2 className="reveal mb-4 text-4xl font-bold tracking-tight sm:text-5xl">Purposeful pH.</h2>
+        <h2 className="reveal mb-4 text-4xl font-bold tracking-tight sm:text-5xl">Purposeful pH. <br/>A spectrum of possibilities.</h2>
         <p className="reveal mb-4 max-w-xl text-lg text-[#5d6c7b]">Water is not static. It is a spectrum of possibilities. Enagic® has pioneered this technology for over 50 years. PeakSpring brings it to your home.</p>
         <div className="reveal mb-10 flex gap-2 text-sm font-semibold text-[#b2945e]">
           <span className="rounded-full bg-[#b2945e]/10 px-4 py-1">Acidic</span>
@@ -280,6 +279,7 @@ export function StackedCards() {
           {[{step:"01",title:"Step 1: Filtration",text:"Source water enters the internal high grade filter, a multi level system designed to prepare your water for ionization. Antibacterial granular activated carbon and calcium sulfite remove up to 95% of chlorine, volatile organic compounds, and unwanted tastes or odors. A mechanical barrier captures impurities down to 5 microns. What passes through is purified water, free from common contaminants but still rich in the essential minerals needed for electrolysis."},
             {step:"02",title:"Step 2: Electrolysis",text:"The filtered water moves through several electrode plates and membranes, separating into acidic and alkaline parts. It is split into OH- (hydroxide ions) and H+ (hydrogen ions). The hydrogen ions react with electrons given by the cathode (– charged electrode), forming H2, molecular hydrogen. Hydroxide ions remain, making the water more alkaline around the cathode. Conversely, acidic water forms around the anode."}].map((c,i)=>(
             <div key={c.step} className="reveal group relative overflow-hidden rounded-[20px] border border-gray-100 bg-white p-8 shadow-sm hover:shadow-lg transition-shadow" style={{position:"sticky",top:`${i===0?22:27}rem`}}>
+              {c.step === "01" && <img src={`${CDN}/69798387493c019bcbc170a6_features-bg.avif`} alt="" className="w-full h-48 object-cover rounded-xl mb-4"/>}
               <span className="text-6xl font-bold text-[#175a6b]/10">{c.step}</span>
               <h2 className="mt-2 text-2xl font-bold">{c.title}</h2>
               <p className="mt-3 text-base leading-relaxed text-[#5d6c7b]">{c.text}</p>
@@ -303,7 +303,7 @@ export function Certificates() {
             <p className="mt-6 max-w-lg text-base leading-relaxed text-[#5d6c7b] sm:text-lg">True peace of mind comes from knowing exactly what is in your glass. The ionizer is rigorously tested to ensure every drop meets the highest standards of purity and performance.</p>
             <a href="/about-us" className="mt-8 inline-flex items-center gap-2 rounded-full border border-[#175a6b]/30 px-6 py-3 text-sm font-bold text-[#175a6b] hover:bg-[#175a6b]/5 transition-colors">Discover the Technology →</a>
           </div>
-          <img src={`${CDN}/699c85a0b080723ac197a7f9_Frame%202147225001%20(3)%20(2).avif`} alt="" className="reveal w-full rounded-[20px] object-cover shadow-lg"/>
+          <img src={`${CDN}/69798387493c019bcbc17086_certificate_cta.webp`} alt="" className="reveal w-full rounded-[20px] object-cover shadow-lg"/>
         </div>
       </div>
     </section>
@@ -318,9 +318,8 @@ export function Antioxidant() {
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <img src={`${CDN}/699c85a0b080723ac197a7f9_Frame%202147225001%20(3)%20(2).avif`} alt="" className="reveal w-full rounded-[20px] object-cover shadow-lg"/>
           <div className="reveal">
-            <img src={`${CDN}/69798387493c019bcbc1709a_certificate_logo_3.webp`} alt="ISO 13485" className="mb-5 h-10 w-auto"/>
-            <h2 className="text-4xl font-bold tracking-tight sm:text-5xl">The Ultimate Antioxidant.</h2>
-            <h2 className="text-4xl font-bold tracking-tight sm:text-5xl">Liquid Immunity.</h2>
+            <img src={`${CDN}/699948795d3bd71d6d798a4e_Frame%2082.svg`} alt="ISO 13485" className="mb-5 h-10 w-auto"/>
+            <h2 className="text-4xl font-bold tracking-tight sm:text-5xl"><span className="text-[#b2945e]">The Ultimate Antioxidant.</span><br/>Liquid Immunity.</h2>
             <p className="mt-6 text-base leading-relaxed text-[#5d6c7b] sm:text-lg">Chronic inflammation is the silent adversary of longevity and the root cause of most modern diseases. Molecular hydrogen (H₂) is the smallest molecule in existence. It penetrates where other antioxidants cannot, reaching mitochondria and cell nuclei at the deepest level. Backed by over 3,000 peer-reviewed studies, molecular hydrogen is recognized as a selective antioxidant that neutralizes only the most harmful free radicals.</p>
           </div>
         </div>
@@ -337,12 +336,16 @@ export function PerformanceSystem() {
         <h2 className="reveal mb-4 text-center text-4xl font-bold tracking-tight sm:text-5xl">A performance system built for a lifetime</h2>
         <p className="reveal mx-auto mb-12 max-w-xl text-center text-lg text-[#5d6c7b]">This is more than a machine. It is a long-term investment in your health, your focus, and your recovery. Backed by medical grade technology and dedicated expert support from PeakSpring.</p>
         <div className="grid gap-5 sm:grid-cols-3">
-          {["Personalized 1-on-1 Consultation","Ongoing Expert Service & Support","Performance Optimization Checkups"].map((t,i)=>(
-            <div key={t} className="reveal rounded-[20px] border border-gray-100 bg-[#fafafa] p-8 text-center hover:-translate-y-1 hover:border-[#b2945e] transition-all">
-              <span className="text-3xl font-bold text-[#175a6b]/10">{i+1}</span>
-              <p className="mt-2 font-semibold">{t}</p>
-            </div>
-          ))}
+                  {[
+                    {t:"Personalized 1-on-1 Consultation",icon:`${CDN}/69798387493c019bcbc17084_performance_icon_1.svg`},
+                    {t:"Ongoing Expert Service & Support",icon:`${CDN}/69798387493c019bcbc17083_performance_icon_2.svg`},
+                    {t:"Performance Optimization Checkups",icon:`${CDN}/69798387493c019bcbc17085_performance_icon_3.svg`},
+                  ].map((c,i)=>(
+                    <div key={c.t} className="reveal rounded-[20px] border border-gray-100 bg-[#fafafa] p-8 text-center hover:-translate-y-1 hover:border-[#b2945e] transition-all">
+                      <img src={c.icon} alt="" className="mx-auto mb-3 h-12 w-12" />
+                      <p className="mt-2 font-semibold">{c.t}</p>
+                    </div>
+                  ))}
         </div>
         <div className="reveal mt-10 text-center">
           <a href="/contact" className="inline-flex rounded-[4.5rem] bg-[#175a6b] px-5 py-3 text-[1.0625rem] font-semibold text-white hover:bg-[#08303a] transition-colors shadow-lg">Book a Free Consultation</a>
