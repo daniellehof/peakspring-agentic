@@ -39,7 +39,7 @@ export function Footer() {
             </div>
           </div>
           <div className="mt-12 border-t border-white/10 pt-6 text-center text-xs text-white/40">
-            © {new Date().getFullYear()} PeakSpring. All rights reserved. Digital experience by <a href="https://weblyfe.nl/" className="hover:text-white/60 underline">Weblyfe</a>
+            © {new Date().getFullYear()} PeakSpring. All rights reserved. PeakSpring® | Medical-Grade Structured Alkaline Water System. Digital experience by <a href="https://weblyfe.nl/" className="hover:text-white/60 underline">Weblyfe</a>
           </div>
         </div>
       </div>
