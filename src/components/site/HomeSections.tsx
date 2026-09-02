@@ -151,21 +151,37 @@ export function FeaturesSection() {
 export function PhExperience() {
   const [dragPos,setDragPos]=useState(0);
   const barRef=useRef<HTMLDivElement>(null);
+  const phImages: Record<string, string> = {
+  "Deep Sanitise": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c3d05092a1a0d3add42d2_Deep%20Sanitise.avif",
+  "Surface Safe": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c3dd827891b78ac3eca64_image%20587%20(1).avif",
+  "Skin Toner": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c3e60a9197d08f2fc5a28_image%20587%20(2).avif",
+  "Face Wash": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c3e69e73d72bf49e745fc_image%20587%20(3).avif",
+  "Hair Shine": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c3ef672a91b131306f9a2_image%20587%20(4).avif",
+  "Medication": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c3f27103df43c270f19ef_image%20587%20(5).avif",
+  "Baby Formula": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c408287706767a7c53d27_image%20587%20(6).avif",
+  "Pet Care": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c40b2b63f00765d62dbda_image%20587%20(7).avif",
+  "First Sip": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d226c82ff4e49be00f969_69ca2d06eea4b487fbdd447b_3.avif",
+  "Daily Balance": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d226deefef168d47d9a06_69ca2cdb265c9d74b1d7c82d_4.avif",
+  "Peak Hydration": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d226d82c6c5497909b17a_69ca2bedfe29db092cf60d95_5.avif",
+  "Flavour Extract": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/69b2f917a544cd658e9dd565_69b2f76ed25c6712f4fee815_Fruits.png",
+  "Eat Clean": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/69b2f91760aee78458574a06_699d26188ec347d509d70d7a_EP_20251113_4012.png",
+  "Meat & Fish": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d2259169b3836cba9247b_69b718f9fae37cf37a520604_image%20481.png",
+};
   const levels=[
-    {ph:"2.5",use:"Deep Sanitise",name:"Strong Acid - pH 2.5",text:"A hospital-grade disinfectant. Kills bacteria on hands, cutting boards, knives, and surfaces instantly without chemicals."},
-    {ph:"6.0",use:"Surface Safe",name:"Mildly Acidic - pH 6.0",text:"A streak-free cleaner for glass, mirrors, and eyeglasses. Removes hard water stains without harsh ammonia."},
-    {ph:"6.0",use:"Skin Toner",name:"Weak Acid - pH 6.0",text:"Matches the natural pH of your skin. Use as a facial mist to tighten pores and firm skin after washing."},
-    {ph:"6.0",use:"Face Wash",name:"Gentle Wash - pH 6.0",text:"A non-stripping water for delicate skin. Perfect for washing your face in the morning to preserve natural oils."},
-    {ph:"6.0",use:"Hair Shine",name:"Beauty Water - pH 6.0",text:"A natural alternative to conditioner. Rinsing hair with this water closes the cuticle, detangling strands."},
-    {ph:"7.0",use:"Medication",name:"Absorption - pH 7.0",text:"Neutral water without alkaline properties, so your medication dissolves and absorbs as intended."},
-    {ph:"7.0",use:"Baby Formula",name:"Neutral - pH 7.0",text:"Pure, filtered, and chemically neutral. Ideal for mixing formula to support proper nutrient absorption."},
-    {ph:"7.0",use:"Pet Care",name:"Neutral - pH 7.0",text:"A gentle grooming rinse for pets. Neutralizes odors and soothes minor skin irritations or hot spots."},
-    {ph:"8.5",use:"First Sip",name:"Acclimate - pH 8.5",text:"The starting level for hydrogen rich hydration. Drink this for the first two weeks to gently acclimate."},
-    {ph:"9.0",use:"Daily Balance",name:"Active - pH 9.0",text:"The standard for daily drinking. Supports your body's alkaline balance and counteracts acidic foods."},
-    {ph:"9.5",use:"Peak Hydration",name:"Optimal - pH 9.5",text:"High-antioxidant water for athletic recovery and deep cellular hydration. The gold standard for daily use."},
-    {ph:"9.5",use:"Flavour Extract",name:"Tea & Coffee - pH 9.5",text:"Penetrates tea leaves and coffee beans deeper. Draws out richer flavor and aroma using less coffee or tea."},
-    {ph:"11.5",use:"Eat Clean",name:"Strong Alkaline - 11.5",text:"A powerful emulsifier. Soak produce for 10 minutes to strip away oil-based pesticides, wax, and grime."},
-    {ph:"11.5",use:"Meat & Fish",name:"Food Prep - pH 11.5",text:"Tenderizes meats and draws out gamey flavors from fish. Use as a soak before cooking to enhance texture."},
+    {ph:"2.5",use:"Deep Sanitise",name:"Strong Acid - pH 2.5",text:"A hospital-grade disinfectant. Kills bacteria on hands, cutting boards, knives, and surfaces instantly without chemicals.",img:phImages["Deep Sanitise"]},
+    {ph:"6.0",use:"Surface Safe",name:"Mildly Acidic - pH 6.0",text:"A streak-free cleaner for glass, mirrors, and eyeglasses. Removes hard water stains without harsh ammonia.",img:phImages["Surface Safe"]},
+    {ph:"6.0",use:"Skin Toner",name:"Weak Acid - pH 6.0",text:"Matches the natural pH of your skin. Use as a facial mist to tighten pores and firm skin after washing.",img:phImages["Skin Toner"]},
+    {ph:"6.0",use:"Face Wash",name:"Gentle Wash - pH 6.0",text:"A non-stripping water for delicate skin. Perfect for washing your face in the morning to preserve natural oils.",img:phImages["Face Wash"]},
+    {ph:"6.0",use:"Hair Shine",name:"Beauty Water - pH 6.0",text:"A natural alternative to conditioner. Rinsing hair with this water closes the cuticle, detangling strands.",img:phImages["Hair Shine"]},
+    {ph:"7.0",use:"Medication",name:"Absorption - pH 7.0",text:"Neutral water without alkaline properties, so your medication dissolves and absorbs as intended.",img:phImages["Medication"]},
+    {ph:"7.0",use:"Baby Formula",name:"Neutral - pH 7.0",text:"Pure, filtered, and chemically neutral. Ideal for mixing formula to support proper nutrient absorption.",img:phImages["Baby Formula"]},
+    {ph:"7.0",use:"Pet Care",name:"Neutral - pH 7.0",text:"A gentle grooming rinse for pets. Neutralizes odors and soothes minor skin irritations or hot spots.",img:phImages["Pet Care"]},
+    {ph:"8.5",use:"First Sip",name:"Acclimate - pH 8.5",text:"The starting level for hydrogen rich hydration. Drink this for the first two weeks to gently acclimate.",img:phImages["First Sip"]},
+    {ph:"9.0",use:"Daily Balance",name:"Active - pH 9.0",text:"The standard for daily drinking. Supports your body's alkaline balance and counteracts acidic foods.",img:phImages["Daily Balance"]},
+    {ph:"9.5",use:"Peak Hydration",name:"Optimal - pH 9.5",text:"High-antioxidant water for athletic recovery and deep cellular hydration. The gold standard for daily use.",img:phImages["Peak Hydration"]},
+    {ph:"9.5",use:"Flavour Extract",name:"Tea \u0026 Coffee - pH 9.5",text:"Penetrates tea leaves and coffee beans deeper. Draws out richer flavor and aroma using less coffee or tea.",img:phImages["Flavour Extract"]},
+    {ph:"11.5",use:"Eat Clean",name:"Strong Alkaline - 11.5",text:"A powerful emulsifier. Soak produce for 10 minutes to strip away oil-based pesticides, wax, and grime.",img:phImages["Eat Clean"]},
+    {ph:"11.5",use:"Meat \u0026 Fish",name:"Food Prep - pH 11.5",text:"Tenderizes meats and draws out gamey flavors from fish. Use as a soak before cooking to enhance texture.",img:phImages["Meat \u0026 Fish"]},
   ];
   const h=(cX:number)=>{if(!barRef.current)return;const r=barRef.current.getBoundingClientRect();setDragPos(Math.max(0,Math.min(cX-r.left,r.width)));};
 
@@ -188,13 +204,16 @@ export function PhExperience() {
         </div>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {levels.map(l=>(
-            <div key={l.name} className="reveal flex flex-col rounded-[20px] border border-gray-100 bg-white p-5 shadow-sm hover:-translate-y-1 hover:shadow-md transition-all">
+            <div key={l.name} className="reveal relative flex flex-col rounded-[20px] border border-gray-100 bg-white shadow-sm hover:-translate-y-1 hover:shadow-md transition-all overflow-hidden">
+              {l.img && <img src={l.img} alt={l.use} className="h-40 w-full object-cover" loading="lazy" />}
+              <div className="p-5 flex flex-col flex-1">
               <div className="mb-3 flex items-center justify-between">
                 <span className="inline-flex items-center justify-center rounded-[77.5px] bg-[#175a6b] px-4 py-1.5 text-xs font-bold text-white">pH {l.ph}</span>
                 <span className="text-[11px] font-semibold uppercase tracking-widest text-[#b2945e]/80">{l.use}</span>
               </div>
               <h3 className="text-base font-bold">{l.name}</h3>
               <p className="mt-1.5 flex-1 text-sm leading-relaxed text-[#5d6c7b]">{l.text}</p>
+              </div>
             </div>
           ))}
         </div>
