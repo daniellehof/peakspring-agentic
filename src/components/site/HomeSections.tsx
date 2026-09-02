@@ -5,6 +5,27 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay, EffectFade } from "swiper/modules";
 import type { Swiper as SwiperType } from "swiper";
+import { useRef as gsapRef, useEffect as gsapEffect } from "react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
+function ScrollReveal({ children, className = "" }: { children: React.ReactNode; className?: string }) {
+  const ref = gsapRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
+    if (mq.matches) return;
+    gsap.fromTo(el, { opacity: 0, y: 80 }, {
+      opacity: 1, y: 0, duration: 1, ease: "power3.out",
+      scrollTrigger: { trigger: el, start: "top 95%", toggleActions: "play none none none" },
+    });
+    return () => { ScrollTrigger.getAll().forEach(t => t.kill()); };
+  }, []);
+  return <div ref={ref} className={className}>{children}</div>;
+}
 
 const CDN = "https://cdn.prod.website-files.com/69798387493c019bcbc16fc7";
 
@@ -23,12 +44,10 @@ export function Hero() {
       </div>
 
       <div className="relative z-[2] mx-auto mb-[4.6875rem] flex w-full max-w-[60.1875rem] flex-col items-start gap-2 px-[3.75rem]">
-        <span className="inline-flex rounded-full border border-white/20 bg-white/5 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.15em] text-white/90 backdrop-blur-sm"
-          style={{ opacity: loaded ? 1 : 0, transform: loaded ? "none" : "translateY(15px)" }}>
+        <span className="inline-flex rounded-full border border-white/20 bg-white/5 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.15em] text-white/90 backdrop-blur-sm">
           MEDICAL-GRADE. ISO 13485 CERTIFIED.
         </span>
-        <h1 className="text-[3.5rem] font-bold leading-[1.2] tracking-tight text-white"
-          style={{ opacity: loaded ? 1 : 0 }}>
+        <h1 className="text-[3.5rem] font-bold leading-[1.2] tracking-tight text-white">
           Rethink Water.<br />Your most essential source.
         </h1>
         <p className="max-w-[39.375rem] text-base leading-relaxed text-white/85 sm:text-lg">
@@ -68,11 +87,13 @@ const features = [
 
 export function FeatureGrid() {
   return (
+    <ScrollReveal>
     <section className="section_features_icon" style={{ backgroundImage: `url(${CDN}/69798387493c019bcbc170a6_features-bg.avif)`, backgroundPosition: "50%", backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>
       <div className="container-large padding-global py-5">
         <div className="grid grid-cols-2 gap-5 md:grid-cols-4">
           {features.map((f, i) => (
-            <div key={f.title} className="flex max-w-[20.625rem] flex-col items-center justify-center gap-5 text-center text-[#175a6b]">
+            <div key={f.title} className="flex max-w-[20.625rem] flex-col items-center justify-center gap-5 text-center text-[#175a6b]"
+              style={{ transition: `opacity 1s ${i * 0.1}s, transform 1s ${i * 0.1}s` }}>
               <img src={f.icon} alt={f.title} className="h-14 w-14" style={{ width: "3.5rem", height: "3.5rem", minWidth: "3.5rem", minHeight: "3.5rem" }} />
               <span className="text-lg font-bold">{f.title}</span>
               <span className="text-sm text-[#5d6c7b]">{f.sub}</span>
@@ -81,6 +102,7 @@ export function FeatureGrid() {
         </div>
       </div>
     </section>
+    </ScrollReveal>
   );
 }
 

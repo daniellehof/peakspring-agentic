@@ -1,14 +1,6 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
 import { SmoothScroll } from "@/features/motion/smooth-scroll";
 import "./globals.css";
-
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  variable: "--font-montserrat",
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   title: "PeakSpring® | Hydrogen-Rich Water — Medical Grade Ionizers",
@@ -27,8 +19,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={montserrat.variable}>
+    <html lang="en">
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -49,7 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
       </head>
-      <body className={`${montserrat.variable} min-h-screen bg-background font-body antialiased`}>
+      <body className="min-h-screen bg-[#fafafa] font-body antialiased" style={{ fontFamily: "'Montserrat', Arial, sans-serif" }}>
         <SmoothScroll />
         {children}
       </body>
