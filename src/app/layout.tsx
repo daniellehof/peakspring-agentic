@@ -13,6 +13,13 @@ export const metadata: Metadata = {
     siteName: "PeakSpring",
     locale: "en_US",
     type: "website",
+    images: [{ url: "https://cdn.prod.website-files.com/69798387493c019bcbc16fc7/69798387493c019bcbc17034_logo.webp", width: 179, height: 40, alt: "PeakSpring" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "PeakSpring® | Hydrogen-Rich Water",
+    description: "Hydrogen-rich water, engineered to medical-grade standards.",
+    images: ["https://cdn.prod.website-files.com/69798387493c019bcbc16fc7/69798387493c019bcbc17034_logo.webp"],
   },
 };
 
