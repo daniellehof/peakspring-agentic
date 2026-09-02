@@ -1,0 +1,1804 @@
+{
+  "collections": {
+    "69798387493c019bcbc16fde": {
+      "metadata": {
+        "id": "69798387493c019bcbc16fde",
+        "displayName": "Faqs",
+        "singularName": "Faq",
+        "slug": "faq",
+        "createdOn": "2026-01-27T12:18:09.515Z",
+        "lastUpdated": "2026-01-28T03:33:30.667Z"
+      },
+      "schema": {
+        "id": "69798387493c019bcbc16fde",
+        "displayName": "Faqs",
+        "singularName": "Faq",
+        "slug": "faq",
+        "createdOn": "2026-01-27T12:18:09.515Z",
+        "lastUpdated": "2026-01-28T03:33:30.667Z",
+        "fields": [
+          {
+            "id": "c32c91a51b96e14b4b465f9414ab97c8",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "PlainText",
+            "slug": "answer",
+            "displayName": "Answer",
+            "helpText": null,
+            "validations": {
+              "singleLine": true
+            }
+          },
+          {
+            "id": "f8fad34e84b3de29f2136a5fe6559f56",
+            "isEditable": true,
+            "isRequired": true,
+            "type": "PlainText",
+            "slug": "name",
+            "displayName": "Question",
+            "helpText": null,
+            "validations": {
+              "maxLength": 256
+            }
+          },
+          {
+            "id": "3207363f5858ccdd8b7d8f148c60957d",
+            "isEditable": true,
+            "isRequired": true,
+            "type": "PlainText",
+            "slug": "slug",
+            "displayName": "Slug",
+            "helpText": null,
+            "validations": {
+              "maxLength": 256,
+              "messages": {
+                "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+                "maxLength": "Must be less than 256 characters"
+              }
+            }
+          }
+        ],
+        "fieldGroups": []
+      },
+      "items": {
+        "items": [
+          {
+            "id": "6a25e6421d7d922b5e8d4400",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-07T21:53:44.943Z",
+            "lastUpdated": "2026-06-07T21:45:07.947Z",
+            "createdOn": "2026-06-07T21:44:34.030Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "answer": "No, and this is one of the most important distinctions. High-dose antioxidant supplements like vitamin C and E can suppress the reactive oxygen species your body uses as a training signal, blunting the adaptation response. H₂ does not work this way. It selectively neutralizes only cytotoxic free radicals, leaving the signaling molecules that drive strength and endurance gains intact. You protect your cells without slowing your progress.",
+              "name": "Does it interfere with my training adaptations?",
+              "slug": "does-it-interfere-with-my-training-adaptations"
+            }
+          },
+          {
+            "id": "69798387493c019bcbc170fe",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-03-28T12:13:40.520Z",
+            "lastUpdated": "2026-03-28T11:48:44.958Z",
+            "createdOn": "2026-01-27T12:21:41.788Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "answer": "PeakSpring is here from your first question to years after installation. We take the time to inform you, answer your questions, and help you understand what this machine can do for your daily life. After purchase, you receive personal guidance on installation, usage, and water quality, as well as access to our dedicated support team for any technical or practical questions. Reach us anytime via WhatsApp, video call, or phone.",
+              "name": "Which support do I get from PeakSpring?",
+              "slug": "support-from-peakspring"
+            }
+          },
+          {
+            "id": "69798387493c019bcbc170fd",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-03-28T12:13:40.520Z",
+            "lastUpdated": "2026-03-28T11:11:59.758Z",
+            "createdOn": "2026-01-27T12:21:27.175Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "answer": "We are happy to assist in the way that suits you best. Book a free consultation for a personal walkthrough via video call, or contact us directly on WhatsApp to get your questions answered. We are here to provide all the information you need. ",
+              "name": "How do I receive more information?",
+              "slug": "receive-more-information"
+            }
+          },
+          {
+            "id": "69798387493c019bcbc170fc",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-03-28T12:13:40.520Z",
+            "lastUpdated": "2026-03-28T11:49:37.243Z",
+            "createdOn": "2026-01-27T12:21:05.860Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "answer": "Molecular hydrogen has been researched for decades and is supported by over 3,000 peer-reviewed publications. The FDA acknowledged it as safe in 2014. In Japan, this technology has been used in hospitals and homes for over 50 years. Europe is only now catching up.",
+              "name": "Why have I never heard of this before?",
+              "slug": "why-never-heard-of-this"
+            }
+          },
+          {
+            "id": "69798387493c019bcbc170fa",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-03-28T12:13:40.520Z",
+            "lastUpdated": "2026-03-28T11:39:23.139Z",
+            "createdOn": "2026-01-27T12:19:55.665Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "answer": "Molecular hydrogen is scientifically recognized as a selective antioxidant. It targets harmful free radicals like hydroxyl while leaving beneficial signaling molecules untouched. It has been recognized as safe (GRAS) by the FDA since 2014 and is supported by over 3,000 peer-reviewed publications. The ionizer is manufactured to ISO 13485 standards, the international certification for medical device manufacturing. Want to explore the research yourself? Search for \"molecular hydrogen,\" \"electrolyzed reduced water\" (ERW), or \"hydrogen-rich water\" on PubMed or Google Scholar.",
+              "name": "Is it backed by science?",
+              "slug": "is-it-backed-by-science"
+            }
+          },
+          {
+            "id": "69798387493c019bcbc170fb",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-03-28T12:13:40.520Z",
+            "lastUpdated": "2026-03-28T10:56:40.219Z",
+            "createdOn": "2026-01-27T12:19:29.211Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "answer": "Standard filters are designed to take things out, like chlorine and sediment. Necessary, but only half the picture. The ionizer goes a step further by putting something back in: dissolved molecular hydrogen (H₂), the smallest and most bioavailable antioxidant in existence. H₂ selectively neutralizes harmful free radicals without interfering with your body's natural processes. Unlike reverse osmosis, this process preserves the essential minerals your body needs.",
+              "name": "What is hydrogen rich water and how is it different from filtered water?",
+              "slug": "hydrogen-rich-water-vs-filtered-water"
+            }
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 6
+        }
+      }
+    },
+    "69798387493c019bcbc17000": {
+      "metadata": {
+        "id": "69798387493c019bcbc17000",
+        "displayName": "Video's",
+        "singularName": "Video'",
+        "slug": "video",
+        "createdOn": "2026-01-27T12:34:03.325Z",
+        "lastUpdated": "2026-06-17T09:59:55.609Z"
+      },
+      "schema": {
+        "id": "69798387493c019bcbc17000",
+        "displayName": "Video's",
+        "singularName": "Video'",
+        "slug": "video",
+        "createdOn": "2026-01-27T12:34:03.325Z",
+        "lastUpdated": "2026-06-17T09:59:55.609Z",
+        "fields": [
+          {
+            "id": "21f581dd6e8e3cc722ad857e287999a0",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "Image",
+            "slug": "potentialswiper-image",
+            "displayName": "Thumbnail Image",
+            "helpText": null,
+            "validations": null
+          },
+          {
+            "id": "b52cd5ca677b9b34675d507cc062ec51",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "Number",
+            "slug": "order",
+            "displayName": "Order",
+            "helpText": null,
+            "validations": {
+              "format": "integer",
+              "precision": 1,
+              "allowNegative": false
+            }
+          },
+          {
+            "id": "0545c8c69bd7bab4f0c1d148d7591d85",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "VideoLink",
+            "slug": "video-link",
+            "displayName": "Video Link",
+            "helpText": null,
+            "validations": null
+          },
+          {
+            "id": "7dc5151df20920d4076c37a068064adb",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "PlainText",
+            "slug": "description",
+            "displayName": "Description",
+            "helpText": null,
+            "validations": {
+              "singleLine": true
+            }
+          },
+          {
+            "id": "ed38a7b5d6d8f5a3971f2cad5a2e0569",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "RichText",
+            "slug": "blog-summary",
+            "displayName": "Blog Summary",
+            "helpText": null,
+            "validations": null
+          },
+          {
+            "id": "fa46c6e53d8aa2909535e7e6d779a1f3",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "RichText",
+            "slug": "blog-article",
+            "displayName": "Blog Article",
+            "helpText": null,
+            "validations": null
+          },
+          {
+            "id": "0b5d8b2860f7c26fa0f5ed17e7cbdd79",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "PlainText",
+            "slug": "seo-optimised-title",
+            "displayName": "SEO Optimised Title",
+            "helpText": null,
+            "validations": {
+              "singleLine": true
+            }
+          },
+          {
+            "id": "f6580689b37829b8b64ba53c8668bda9",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "PlainText",
+            "slug": "seo-meta-description",
+            "displayName": "SEO Meta Description",
+            "helpText": null,
+            "validations": {
+              "singleLine": true
+            }
+          },
+          {
+            "id": "6c6084559f220030e9390c97b59a8cb6",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "Reference",
+            "slug": "author",
+            "displayName": "Author",
+            "helpText": null,
+            "validations": {
+              "collectionId": "69b2f398ade891d9dc0fb2ea"
+            }
+          },
+          {
+            "id": "73e8ab7746ea2a4a1f3d1067cba8ee01",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "Switch",
+            "slug": "show-in-home",
+            "displayName": "Show in Home",
+            "helpText": null,
+            "validations": null
+          },
+          {
+            "id": "82dcc9a15a229784d38ec0643c817c58",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "Switch",
+            "slug": "show-in-about",
+            "displayName": "Show in About",
+            "helpText": null,
+            "validations": null
+          },
+          {
+            "id": "ec5e0c293df5e5301d381838e35051dc",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "Switch",
+            "slug": "show-in-family",
+            "displayName": "Show in Family",
+            "helpText": null,
+            "validations": null
+          },
+          {
+            "id": "498f557ef59e9e99a2cacc47481514e3",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "Switch",
+            "slug": "show-in-performance",
+            "displayName": "Show in Performance",
+            "helpText": null,
+            "validations": null
+          },
+          {
+            "id": "97a3d69c3473bb21714ec6fc0d627c6f",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "Option",
+            "slug": "category",
+            "displayName": "Category",
+            "helpText": null,
+            "validations": {
+              "options": [
+                {
+                  "name": "Home",
+                  "id": "e6946d901e15827e44625b7a28d26746"
+                },
+                {
+                  "name": "About",
+                  "id": "3b8271e264abd0ee8e91d16e44e84399"
+                },
+                {
+                  "name": "Performance",
+                  "id": "15586b825f56b722a6cbff51dc68b1a6"
+                },
+                {
+                  "name": "Family",
+                  "id": "89adb2660f33a792d2352345f01ab23d"
+                }
+              ]
+            }
+          },
+          {
+            "id": "be11fc1fbc39b322a3cbd3de0e8bd702",
+            "isEditable": true,
+            "isRequired": true,
+            "type": "PlainText",
+            "slug": "name",
+            "displayName": "Video Name",
+            "helpText": null,
+            "validations": {
+              "maxLength": 256
+            }
+          },
+          {
+            "id": "dab9ce7e794fa0483b1f4e7c2e6eca53",
+            "isEditable": true,
+            "isRequired": true,
+            "type": "PlainText",
+            "slug": "slug",
+            "displayName": "Slug",
+            "helpText": null,
+            "validations": {
+              "maxLength": 256,
+              "pattern": {},
+              "messages": {
+                "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+                "maxLength": "Must be less than 256 characters"
+              }
+            }
+          }
+        ],
+        "fieldGroups": []
+      },
+      "items": {
+        "items": [
+          {
+            "id": "699c91f4084b7360617d454a",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-17T14:53:40.758Z",
+            "lastUpdated": "2026-06-17T14:27:12.656Z",
+            "createdOn": "2026-02-23T17:44:20.878Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "potentialswiper-image": {
+                "fileId": "69b2f91760aee78458574a06",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/69b2f91760aee78458574a06_699d26188ec347d509d70d7a_EP_20251113_4012.png",
+                "alt": "PeakSpring video thumbnail explaining the five pH levels of ionized water for daily use."
+              },
+              "order": 14,
+              "video-link": {
+                "url": "https://vimeo.com/1170221329/836a2c0e97?share=copy&fl=sv&fe=ci",
+                "metadata": {
+                  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F1170221329%3Fh%3D836a2c0e97%26app_id%3D122963&dntp=1&display_name=Vimeo&url=https%3A%2F%2Fvimeo.com%2F1170221329%2F836a2c0e97&image=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2129269410-46c33eec0923fe3b04bea42672703a34d4a8ba9df3a74ce64ab7ce7e6a7e44cd-d_960%3Fregion%3Dus&type=text%2Fhtml&schema=vimeo\" width=\"1080\" height=\"1920\" scrolling=\"no\" title=\"Vimeo embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
+                  "type": "video",
+                  "title": "Customer journey without disclaimer",
+                  "width": 1080,
+                  "height": 1920,
+                  "aspectRatio": 0,
+                  "author_name": "Peakspring",
+                  "description": "Explaining what ionized water is, how it works, and what it does for your body. It covers the five different pH levels of the system and how it can replace everyday cleaning, skincare, and drinking water products.",
+                  "provider_name": "Vimeo",
+                  "thumbnail_url": "https://i.vimeocdn.com/video/2129269410-46c33eec0923fe3b04bea42672703a34d4a8ba9df3a74ce64ab7ce7e6a7e44cd-d_960?region=us"
+                }
+              },
+              "description": "The origin. The technology. Every pH level and its purpose.",
+              "blog-summary": "<p>Master the five distinct pH levels of ionized water. Read our comprehensive guide on how to utilize each setting to replace conventional drinking, cleaning, and skincare products.</p>",
+              "blog-article": "<h2>Mastering the 5 pH Levels of the K8 Kangen Machine</h2><p>The hallmark of a premium health asset is its versatility. The K8 Kangen machine, the centerpiece of the PeakSpring offering, is far more than a source of pristine drinking water. It is a multi-functional device capable of generating five distinct types of water, each tailored for a specific purpose.</p><h3>The Five Pillars of Kangen Water</h3><p>Powered by eight platinum-dipped titanium plates, the K8 produces:<br><strong>1. Kangen Water® (8.5 - 9.5 pH):</strong> For optimal cellular hydration, cooking, and making superior tea or coffee.<br><strong>2. Clean Water (7.0 pH):</strong> Neutral water, perfect for taking medication or preparing baby formula.<br><strong>3. Beauty Water (6.0 pH):</strong> A slightly acidic water that acts as a natural, luxurious astringent for radiant skin and hair care.<br><strong>4. Strong Kangen Water (11.5 pH):</strong> A powerful emulsifier used to remove oil-based pesticides from produce and tackle tough grease.<br><strong>5. Strong Acidic Water (2.5 pH):</strong> A potent, chemical-free sanitizing agent for disinfecting surfaces and hands.</p><h3>A Holistic Ecosystem</h3><p>By bringing the K8 into your home through PeakSpring, you consolidate your health, beauty, and cleaning routines into one elegant, sustainable system. It is the ultimate expression of 'Grounded Luxury' absolute control over the purity of your environment, backed by <a href=\"https://www.enagic.com/en/certifications\" target=\"_blank\">medical-grade certifications</a>.</p><p>‍</p>",
+              "seo-optimised-title": "The Power of pH: Understanding the 5 Types of Ionized Water",
+              "seo-meta-description": "A comprehensive guide to understanding ionized water. Explore the 5 distinct pH levels generated by PeakSpring offered K8 system to replace everyday chemicals.",
+              "author": "69b2f3b1ee3519102bbad75d",
+              "show-in-home": true,
+              "show-in-about": true,
+              "show-in-family": true,
+              "show-in-performance": true,
+              "category": null,
+              "name": "The Full Story in Five Minutes",
+              "slug": "power-of-ph-5-types-ionized-water"
+            }
+          },
+          {
+            "id": "699c91a6606b551b4b689c08",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-17T14:53:40.758Z",
+            "lastUpdated": "2026-06-17T14:27:34.048Z",
+            "createdOn": "2026-02-23T17:43:02.767Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "potentialswiper-image": {
+                "fileId": "6a2d2256dc09561caec90657",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d2256dc09561caec90657_69b719e387bfbb64aef9f092_EP_20251113_3986.jpeg",
+                "alt": "Danielle from PeakSpring holding water for a free consultation about home water systems."
+              },
+              "order": 12,
+              "video-link": {
+                "url": "https://vimeo.com/1170221102/dc6df0eab2?share=copy&fl=sv&fe=ci",
+                "metadata": {
+                  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F1170221102%3Fh%3Ddc6df0eab2%26app_id%3D122963&dntp=1&display_name=Vimeo&url=https%3A%2F%2Fvimeo.com%2F1170221102%2Fdc6df0eab2&image=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2129263213-c5f69df3b5fe294d557abe77b1c7838435d9df2aee27cad23f86eb5c445bf9a6-d_960%3Fregion%3Dus&type=text%2Fhtml&schema=vimeo\" width=\"1080\" height=\"1920\" scrolling=\"no\" title=\"Vimeo embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
+                  "type": "video",
+                  "title": "Short AD 7. CTA v3",
+                  "width": 1080,
+                  "height": 1920,
+                  "aspectRatio": 0,
+                  "author_name": "Peakspring",
+                  "description": "A call-to-action video inviting viewers to book a free one-on-one consultation with PeakSpring to get personal advice about the water ionizer system.",
+                  "provider_name": "Vimeo",
+                  "thumbnail_url": "https://i.vimeocdn.com/video/2129263213-c5f69df3b5fe294d557abe77b1c7838435d9df2aee27cad23f86eb5c445bf9a6-d_960?region=us"
+                }
+              },
+              "description": "Get your questions answered and discover what this machine can do for your daily life.",
+              "blog-summary": "<p>Schedule a discovery call to explore the exclusive ecosystem PeakSpring offers and the transformative power of medical-grade hydration.</p>",
+              "blog-article": "<h2>Your Invitation to the PeakSpring Ecosystem</h2><p>At PeakSpring, we invite you to schedule a private call to explore the profound benefits of our flagship technology, the K8 Kangen machine.</p><h3>Strategic Health Investment</h3><p>During our consultation, we discuss more than just the technical specifications of the K8 though its eight platinum-dipped plates and molecular hydrogen production are peerless. We explore how this medical-grade ionizer acts as a foundational health asset for you and your family, optimizing cellular performance and eliminating household toxins.</p><p>‍</p>",
+              "seo-optimised-title": "Request a Private Briefing",
+              "seo-meta-description": "Schedule a complimentary discovery call with PeakSpring. Discover how integrating premium medical water technology creates a toxic free household. ",
+              "author": "69b2f3b1ee3519102bbad75d",
+              "show-in-home": true,
+              "show-in-about": true,
+              "show-in-family": true,
+              "show-in-performance": true,
+              "category": null,
+              "name": "Book Your Free Consultation",
+              "slug": "private-briefing-peakspring-strategy"
+            }
+          },
+          {
+            "id": "699c9167f657b3b9a71fcbdb",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-17T14:53:40.758Z",
+            "lastUpdated": "2026-06-17T14:27:52.906Z",
+            "createdOn": "2026-02-23T17:41:59.874Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "potentialswiper-image": {
+                "fileId": "6a2d22576792d9efde48bea7",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d22576792d9efde48bea7_69b71f48d9baa13733feca65_u2596555278_Photorealistic_advertising_image_bright_elegant_mo.png",
+                "alt": "Modern kitchen scene showing PeakSpring water used for chemical-free cleaning and produce care."
+              },
+              "order": 11,
+              "video-link": {
+                "url": "https://vimeo.com/1170220887/1f7801c61c?share=copy&fl=sv&fe=ci",
+                "metadata": {
+                  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F1170220887%3Fh%3D1f7801c61c%26app_id%3D122963&dntp=1&display_name=Vimeo&url=https%3A%2F%2Fvimeo.com%2F1170220887%2F1f7801c61c&image=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2129262875-ba89bcd3cc49735ef9935dab2a3a14b5110e57ac436f1c081fa0d72225abf127-d_960%3Fregion%3Dus&type=text%2Fhtml&schema=vimeo\" width=\"1080\" height=\"1920\" scrolling=\"no\" title=\"Vimeo embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
+                  "type": "video",
+                  "title": "Short AD 5. cleaning v3",
+                  "width": 1080,
+                  "height": 1920,
+                  "aspectRatio": 0,
+                  "author_name": "Peakspring",
+                  "description": "Showing how the water ionizer replaces a cabinet full of cleaning products, using activated water to clean surfaces, kitchenware, and even fruits and vegetables without chemicals.",
+                  "provider_name": "Vimeo",
+                  "thumbnail_url": "https://i.vimeocdn.com/video/2129262875-ba89bcd3cc49735ef9935dab2a3a14b5110e57ac436f1c081fa0d72225abf127-d_960?region=us"
+                }
+              },
+              "description": "One device. Zero chemicals. Watch it replace an entire cabinet of cleaning products and remove pesticides. ",
+              "blog-summary": "<p>Declutter your home and eliminate toxic chemicals. Learn how activated water from a single device can safely and effectively clean surfaces, dishes, and produce.</p>",
+              "blog-article": "<h2>The Complete Source: Sustainable Luxury with the K8 Kangen Machine</h2><p>A sophisticated home should be a sanctuary, free from the harsh, synthetic chemicals found in conventional cleaning products. PeakSpring offers an elegant, sustainable solution through the advanced capabilities of the K8 Kangen machine.</p><h3>Eradicating Household Toxins</h3><p>The K8 is renowned not just for its drinking water, but for its capacity to produce Strong Acidic Water (2.5 pH) and Strong Kangen Water (11.5 pH). The 2.5 pH water acts as a highly effective, natural sanitizing agent, capable of replacing chemical disinfectants for countertops, bathrooms, and even hand hygiene. Conversely, the 11.5 pH water is a powerful emulsifier, slicing through tough kitchen grease and stripping oil-based pesticides from your produce.</p><h3>A Smart, Ecological Asset</h3><p>By leveraging the K8's eight platinum-dipped titanium plates, you generate these specialized waters on demand. This entirely eliminates the need to purchase, store, and eventually discard plastic bottles of toxic cleaners. Partnering with PeakSpring means embracing 'Grounded Luxury' a lifestyle where <a href=\"https://www.enagic.com/\" target=\"_blank\">high Japanese technology</a> meets ecological stewardship and uncompromised purity.</p>",
+              "seo-optimised-title": "The Complete Source: Revolutionizing Your Eco-Friendly Home",
+              "seo-meta-description": "Witness how the PeakSpring K8 system replaces toxic cleaning supplies. Utilize chemical-free water to sanitize surfaces, degrease, and purify produce effortlessly.",
+              "author": "69b2f3b1ee3519102bbad75d",
+              "show-in-home": true,
+              "show-in-about": false,
+              "show-in-family": true,
+              "show-in-performance": false,
+              "category": null,
+              "name": "The Complete Source",
+              "slug": "complete-source-eco-friendly-home-cleaning"
+            }
+          },
+          {
+            "id": "69798387493c019bcbc17108",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-17T14:53:40.758Z",
+            "lastUpdated": "2026-06-17T14:28:09.758Z",
+            "createdOn": "2026-01-27T17:18:04.358Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "potentialswiper-image": {
+                "fileId": "6a2d2258ebd15f6de4f054a0",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d2258ebd15f6de4f054a0_69b71d8617add269821a63c4_Gemini_Generated_Image_izik7jizik7jizik.jpeg",
+                "alt": "PeakSpring medical-grade water ionizer in a home wellness setting for drinking, cleaning, and skincare."
+              },
+              "order": 10,
+              "video-link": {
+                "url": "https://vimeo.com/1170220981/d29c6e8264?share=copy&fl=sv&fe=ci",
+                "metadata": {
+                  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F1170220981%3Fh%3Dd29c6e8264%26app_id%3D122963&dntp=1&display_name=Vimeo&url=https%3A%2F%2Fvimeo.com%2F1170220981%2Fd29c6e8264&image=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2129263037-956a37a68e4fd0bc06ec3904b096c9860ea7db185e8d3d8421fcf4e7640f76f6-d_960%3Fregion%3Dus&type=text%2Fhtml&schema=vimeo\" width=\"1080\" height=\"1920\" scrolling=\"no\" title=\"Vimeo embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
+                  "type": "video",
+                  "title": "Short AD 6. Uses ionizer v3",
+                  "width": 1080,
+                  "height": 1920,
+                  "aspectRatio": 0,
+                  "author_name": "Peakspring",
+                  "description": "A short introduction to the water ionizer system, showing how one device replaces cleaning products, skincare, and bottled water through ionization technology made in Japan.",
+                  "provider_name": "Vimeo",
+                  "thumbnail_url": "https://i.vimeocdn.com/video/2129263037-956a37a68e4fd0bc06ec3904b096c9860ea7db185e8d3d8421fcf4e7640f76f6-d_960?region=us"
+                }
+              },
+              "description": "Made in Japan. Replaces your cleaning products, skincare, and bottled water all from one machine.",
+              "blog-summary": "<p>Step into the future of wellness with Japanese water ionization. Learn how a single, medical-grade device can revolutionize your household by replacing bottled water, chemicals, and cosmetics.</p>",
+              "blog-article": "<h2>Redefining the Modern Home with the K8 Kangen Machine</h2><p>PeakSpring introduces you to a transformative lifestyle powered by the Enagic LeveLuk K8 the industry gold standard in Japanese water ionization.</p><h3>Beyond Standard Filtration</h3><p>The K8 Kangen machine is not a simple filter; it is a certified medical device (ISO 13485) that fundamentally alters the structure of tap water. Through advanced electrolysis powered by eight large titanium plates, the K8 generates five distinct waters. This allows you to eliminate toxic cleaning supplies, replace expensive toners with natural Beauty Water, and permanently discard single-use plastic bottles.</p><h3>The PeakSpring Standard</h3><p>By securing the K8 through PeakSpring, you are acquiring a robust, eco-friendly asset. The K8 features a full-color LCD touchscreen, 8-language support, and auto-cleaning, blending seamless usability with industrial-grade performance. Manufactured strictly in-house in Osaka, Japan by <a href=\"https://www.enagic.com/\" target=\"_blank\">Enagic</a>, it is the ultimate foundation for a sustainable, high-performance home.</p>",
+              "seo-optimised-title": "Medical-Grade Water Ionizer: The K8 Technology | PeakSpring",
+              "seo-meta-description": "Step into the future of home wellness. See how the Japanese K8 medical-grade water ionizer replaces toxic cleaners, skincare, and bottled water instantly.",
+              "author": "69b2f3b1ee3519102bbad75d",
+              "show-in-home": true,
+              "show-in-about": false,
+              "show-in-family": false,
+              "show-in-performance": false,
+              "category": null,
+              "name": "One Machine. From Drinking to Cleaning.",
+              "slug": "medical-grade-water-ionizer-system"
+            }
+          },
+          {
+            "id": "69798387493c019bcbc17104",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-17T14:53:40.758Z",
+            "lastUpdated": "2026-06-17T14:28:26.099Z",
+            "createdOn": "2026-01-27T17:18:03.816Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "potentialswiper-image": {
+                "fileId": "6a2d2259169b3836cba9247b",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d2259169b3836cba9247b_69b718f9fae37cf37a520604_image%2520481.png",
+                "alt": "Water glass visual for PeakSpring true cellular hydration with hydrogen-rich alkaline water."
+              },
+              "order": 9,
+              "video-link": {
+                "url": "https://vimeo.com/1170220794/36bf0de307?share=copy&fl=sv&fe=ci",
+                "metadata": {
+                  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F1170220794%3Fh%3D36bf0de307%26app_id%3D122963&dntp=1&display_name=Vimeo&url=https%3A%2F%2Fvimeo.com%2F1170220794%2F36bf0de307&image=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2129262774-b89902046561db8415587cca66a3979c2a67ce45c5573c631d95f879fe2e7d88-d_960%3Fregion%3Dus&type=text%2Fhtml&schema=vimeo\" width=\"1080\" height=\"1920\" scrolling=\"no\" title=\"Vimeo embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
+                  "type": "video",
+                  "title": "Short AD 4. Power of the water v3",
+                  "width": 1080,
+                  "height": 1920,
+                  "aspectRatio": 0,
+                  "author_name": "Peakspring",
+                  "description": "Exploring why water quality matters for your body at a cellular level, and how the mild alkaline pH of ionized water supports your body's natural balance.",
+                  "provider_name": "Vimeo",
+                  "thumbnail_url": "https://i.vimeocdn.com/video/2129262774-b89902046561db8415587cca66a3979c2a67ce45c5573c631d95f879fe2e7d88-d_960?region=us"
+                }
+              },
+              "description": "Your cells don't just need water. They need water small enough to enter. Discover how hydrogen rich water hydrates at the cellular level.",
+              "blog-summary": "<p>Dive into the science of true hydration. Explore how the mild alkaline pH and molecular hydrogen of ionized water optimize your body's cellular balance and overall vitality.</p>",
+              "blog-article": "<h2 id=\"\">The Science of True Hydration: Cellular Optimization via the K8 Kangen Machine</h2><p id=\"\">Hydration is frequently misunderstood as merely the intake of liquid. At PeakSpring, we view hydration through the lens of cellular biology. To achieve true hydration, the structure and electrical charge of the water are paramount. This is where the K8 Kangen machine excels.</p><h3 id=\"\">Molecular Hydrogen and Micro-Clustering</h3><p id=\"\">Through the rigorous electrolysis generated by its eight medical-grade titanium plates, the K8 restructures tap water. It creates water that is rich in molecular hydrogen (H2), a microscopic antioxidant capable of crossing the blood-brain barrier and neutralizing harmful free radicals directly within the mitochondria. Independent studies highlighted on <a id=\"\" href=\"https://pubmed.ncbi.nlm.nih.gov/\" target=\"_blank\">PubMed</a> confirm the therapeutic potential of H2 in combating oxidative stress.</p><h3 id=\"\">Maintaining Systemic Balance</h3><p id=\"\">The K8 allows you to select a mild alkaline pH (8.5 to 9.5), which gently supports the body's natural buffering systems against the acidic stress of modern diets and environmental factors. By acquiring the K8 Kangen machine as part of the PeakSpring portfolio, you are securing a proactive, scientifically-backed tool for cellular longevity and vibrant health.</p>",
+              "seo-optimised-title": "True Hydration: Cellular Effects of Alkaline Ionized Water",
+              "seo-meta-description": "Delve into the science of true cellular hydration. Discover how alkaline pH and molecular hydrogen support your body's natural balance and vitality.",
+              "author": "69b2f3b1ee3519102bbad75d",
+              "show-in-home": true,
+              "show-in-about": false,
+              "show-in-family": true,
+              "show-in-performance": true,
+              "category": null,
+              "name": "True Hydration",
+              "slug": "true-hydration-cellular-effects-alkaline-water"
+            }
+          },
+          {
+            "id": "69798387493c019bcbc17105",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-17T14:53:40.758Z",
+            "lastUpdated": "2026-06-17T14:28:40.490Z",
+            "createdOn": "2026-01-27T17:18:03.772Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "potentialswiper-image": {
+                "fileId": "6a2d225a6792d9efde48c2da",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d225a6792d9efde48c2da_69b717a33d3c647af0cecbf9_Gemini_Generated.png",
+                "alt": "PeakSpring K8 water system lifestyle image for drinking, cooking, cleaning, and skincare."
+              },
+              "order": 8,
+              "video-link": {
+                "url": "https://vimeo.com/1170220700/5d6c73f43b?share=copy&fl=sv&fe=ci",
+                "metadata": {
+                  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F1170220700%3Fh%3D5d6c73f43b%26app_id%3D122963&dntp=1&display_name=Vimeo&url=https%3A%2F%2Fvimeo.com%2F1170220700%2F5d6c73f43b&image=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2129262639-519a1ac0c73c68c160e81c2b989d9d16deb113e1dfd3e7f8d2da9e46d35b34b4-d_960%3Fregion%3Dus&type=text%2Fhtml&schema=vimeo\" width=\"1080\" height=\"1920\" scrolling=\"no\" title=\"Vimeo embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
+                  "type": "video",
+                  "title": "Short AD 3. General health v3",
+                  "width": 1080,
+                  "height": 1920,
+                  "aspectRatio": 0,
+                  "author_name": "Peakspring",
+                  "description": "Highlighting how PeakSpring offers one system that purifies, activates, and adapts water for every daily use from drinking and cooking to cleaning and skincare.",
+                  "provider_name": "Vimeo",
+                  "thumbnail_url": "https://i.vimeocdn.com/video/2129262639-519a1ac0c73c68c160e81c2b989d9d16deb113e1dfd3e7f8d2da9e46d35b34b4-d_960?region=us"
+                }
+              },
+              "description": "Drink it. Cook with it. Clean with it. One system that adapts to every moment of your day.",
+              "blog-summary": "<p>Elevate your daily routines with a single, sophisticated water system. Learn how the technology introduced by PeakSpring adapts to your lifestyle, offering solutions for drinking, cooking, cleaning, and skincare.</p>",
+              "blog-article": "<h2>Elevate Your Daily Routine with the K8 Kangen Machine</h2><p>PeakSpring represents the intersection of luxury, health, and cutting-edge technology. Central to our offering is the K8 Kangen water machine a masterclass in engineering designed to optimize every drop of water you use daily.</p><h3>One System, Infinite Applications</h3><p>The K8 Kangen machine is renowned for its ability to produce five distinct types of water, adapting seamlessly to your lifestyle. Whether you require pure, antioxidant-rich Kangen Water® for cellular hydration, Beauty Water (6.0 pH) for natural skin toning, or Strong Kangen Water for culinary preparation, the K8 delivers with uncompromising quality.</p><h3>A Private Asset for Your Wellbeing</h3><p>Integrating the K8 into your home through the PeakSpring initiative means moving beyond single-use plastics and chemical-laden products. The eight titanium plates ensure maximum electrolysis efficiency, providing a constant stream of active molecular hydrogen. For more on the physiological benefits of hydrogen-rich water, research curated by the <a href=\"https://pubmed.ncbi.nlm.nih.gov/\" target=\"_blank\">National Institutes of Health (NIH)</a> highlights its antioxidant potential. This is more than hydration; it is a holistic approach to daily living, transforming an ordinary resource into a sophisticated health asset.</p>",
+              "seo-optimised-title": "The Complete Water Solution: Daily K8 Hydration | PeakSpring",
+              "seo-meta-description": "Elevate your routine with PeakSpring. Discover how one elegant K8 system purifies, activates, and adapts your water for drinking, cleaning, and skincare.",
+              "author": "69b2f3b1ee3519102bbad75d",
+              "show-in-home": true,
+              "show-in-about": false,
+              "show-in-family": true,
+              "show-in-performance": true,
+              "category": null,
+              "name": "Water for every purpose",
+              "slug": "complete-water-solution-peakspring-daily-use"
+            }
+          },
+          {
+            "id": "69798387493c019bcbc17107",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-17T14:53:40.758Z",
+            "lastUpdated": "2026-06-17T14:29:03.502Z",
+            "createdOn": "2026-01-27T17:18:03.760Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "potentialswiper-image": {
+                "fileId": "6a2d225b08e470b35ea058d5",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d225b08e470b35ea058d5_69b7140adece13c7d9c26a58_EP_20251113_3998.jpeg",
+                "alt": "Danielle holding a glass of water for PeakSpring natural antioxidant hydration."
+              },
+              "order": 7,
+              "video-link": {
+                "url": "https://vimeo.com/1170220533/c56dc910b4?share=copy&fl=sv&fe=ci",
+                "metadata": {
+                  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F1170220533%3Fh%3Dc56dc910b4%26app_id%3D122963&dntp=1&display_name=Vimeo&url=https%3A%2F%2Fvimeo.com%2F1170220533%2Fc56dc910b4&image=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2129262530-6b7ed94547f5ab3fc9f61fc05096abc2636fb2e097e146acd269d4ba54e99047-d_960%3Fregion%3Dus&type=text%2Fhtml&schema=vimeo\" width=\"1080\" height=\"1920\" scrolling=\"no\" title=\"Vimeo embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
+                  "type": "video",
+                  "title": "Short AD 2. vegetables kids v5",
+                  "width": 1080,
+                  "height": 1920,
+                  "aspectRatio": 0,
+                  "author_name": "Peakspring",
+                  "description": "This video shows how the water ionizer supports kids' immune systems with natural antioxidants. To show parents that they can give their children a daily health boost.",
+                  "provider_name": "Vimeo",
+                  "thumbnail_url": "https://i.vimeocdn.com/video/2129262530-6b7ed94547f5ab3fc9f61fc05096abc2636fb2e097e146acd269d4ba54e99047-d_960?region=us"
+                }
+              },
+              "description": "Natural antioxidants in every glass. Strengthening their resilience, even on the days they skip their vegetables.",
+              "blog-summary": "<p>Give your children the ultimate daily health boost. Discover how antioxidant-rich ionized water supports a robust immune system and combats oxidative stress at the cellular level.</p>",
+              "blog-article": "<h2 id=\"\">Liquid Immunity: The Antioxidant Power of the K8 Kangen Machine</h2><p id=\"\">True vitality is built from within. At PeakSpring, we prioritize cellular health by providing access to the most advanced hydration technology available: the K8 Kangen machine. For families seeking to fortify their immune systems naturally, this device is an unparalleled asset.</p><h3 id=\"\">Combatting Oxidative Stress</h3><p id=\"\">Every day, our bodies face oxidative stress from environmental toxins and processed diets. The K8 Kangen machine addresses this by producing water rich in active molecular hydrogen—one of the most potent and bioavailable antioxidants known to science. A single glass of Kangen Water provides a massive antioxidant equivalent, making it an effortless way to support your children's health without added sugars or supplements.</p><h3 id=\"\">The Science of the K8</h3><p id=\"\">The secret lies in the K8's eight platinum-coated titanium plates, which maximize the ionization process to produce water with a highly negative ORP (Oxidation-Reduction Potential). A negative ORP indicates a high concentration of antioxidants capable of neutralizing free radicals. By incorporating this <a id=\"\" href=\"https://www.enagic.com/\" target=\"_blank\">ISO 13485 medical-grade technology</a> into your home via PeakSpring, you are proactively investing in your family's longevity and immune resilience.</p>",
+              "seo-optimised-title": "Liquid Immunity: Antioxidant Ionized Water Benefits | PeakSpring",
+              "seo-meta-description": "Support your family's immune system naturally. Learn how the PeakSpring K8 ionizer delivers molecular hydrogen and powerful antioxidants for daily health.",
+              "author": "69b2f3b1ee3519102bbad75d",
+              "show-in-home": true,
+              "show-in-about": false,
+              "show-in-family": true,
+              "show-in-performance": false,
+              "category": null,
+              "name": "Natural antioxidants ",
+              "slug": "liquid-immunity-antioxidant-water-health"
+            }
+          },
+          {
+            "id": "69798387493c019bcbc17106",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-17T14:53:40.758Z",
+            "lastUpdated": "2026-06-17T14:29:17.148Z",
+            "createdOn": "2026-01-27T17:18:03.635Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "potentialswiper-image": {
+                "fileId": "69b2f917a544cd658e9dd565",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/69b2f917a544cd658e9dd565_69b2f76ed25c6712f4fee815_Fruits.png",
+                "alt": "Fresh strawberries in water showing PeakSpring alkaline water used to remove produce residue."
+              },
+              "order": 6,
+              "video-link": {
+                "url": "https://vimeo.com/1170220393/56e003ae05?share=copy&fl=sv&fe=ci",
+                "metadata": {
+                  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F1170220393%3Fh%3D56e003ae05%26app_id%3D122963&dntp=1&display_name=Vimeo&url=https%3A%2F%2Fvimeo.com%2F1170220393%2F56e003ae05&image=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2129262306-802a6d80514f53c535ea9e991c33bed5283c148a33b2a83b82a3bc6867cf9423-d_960%3Fregion%3Dus&type=text%2Fhtml&schema=vimeo\" width=\"1080\" height=\"1920\" scrolling=\"no\" title=\"Vimeo embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
+                  "type": "video",
+                  "title": "Short AD 1. See What Comes Off Your Vegetables v5",
+                  "width": 1080,
+                  "height": 1920,
+                  "aspectRatio": 0,
+                  "author_name": "Peakspring",
+                  "description": "Showing the visible difference between rinsing produce in tap water versus ionized water, and how ionized water effectively removes pesticide residues and protective coatings that regular water cannot.",
+                  "provider_name": "Vimeo",
+                  "thumbnail_url": "https://i.vimeocdn.com/video/2129262306-802a6d80514f53c535ea9e991c33bed5283c148a33b2a83b82a3bc6867cf9423-d_960?region=us"
+                }
+              },
+              "description": "Tap water can't touch oil-based pesticides. Ionized water strips them in minutes. See the difference for yourself.",
+              "blog-summary": "<p>Don't let hidden pesticides compromise your organic diet. See the visual proof of how highly alkaline ionized water strips away oil-based chemicals that tap water leaves behind.</p>",
+              "blog-article": "<h2>Uncovering the Truth: Produce Purity with the K8 Kangen Machine</h2><p>You invest in high-quality, organic produce to safeguard your health, but rinsing it in tap water leaves a hidden threat intact: oil-based pesticides and herbicides. PeakSpring offers the definitive solution to this problem through the extraordinary power of the K8 Kangen machine.</p><h3>The Strawberry Test: Visual Proof</h3><p>Agricultural chemicals are designed to be oil-based so they do not wash away in the rain. Consequently, standard tap water simply beads off them. The K8 Kangen machine, however, produces Strong Kangen Water at an 11.5 pH level. This highly alkaline water acts as a potent emulsifier. When you soak tomatoes or strawberries in this water, the liquid quickly turns yellow, visibly drawing out the toxic, oil-based residues.</p><h3>Culinary Excellence and Safety</h3><p>By integrating the eight-plate K8 machine into your kitchen, you ensure that the food you serve your family is fundamentally pure. It not only removes harmful chemicals but also enhances the natural flavor of the produce. With PeakSpring, the <a href=\"https://www.enagic.com/\" target=\"_blank\">certified K8 ionizer</a> becomes an essential culinary asset, guaranteeing that your commitment to health is never compromised at the sink.</p>",
+              "seo-optimised-title": "The Truth About Produce: Removing Pesticides with Ionized Water",
+              "seo-meta-description": "See the shocking difference between rinsing produce in standard tap water versus PeakSpring's highly alkaline water. Strip away oil-based pesticides easily.",
+              "author": "69b2f3b1ee3519102bbad75d",
+              "show-in-home": true,
+              "show-in-about": false,
+              "show-in-family": true,
+              "show-in-performance": true,
+              "category": null,
+              "name": "Remove pesticides from your produce",
+              "slug": "removing-pesticides-ionized-water-produce"
+            }
+          },
+          {
+            "id": "69798387493c019bcbc17103",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-17T14:53:40.758Z",
+            "lastUpdated": "2026-06-17T14:29:32.507Z",
+            "createdOn": "2026-01-27T12:39:56.239Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "potentialswiper-image": {
+                "fileId": "6a2d225d95e473b91674184a",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d225d95e473b91674184a_69b7236853b98c89ac2a68fe_evaeva7103_a_father_and_son_sitting_under_an_apple_tree_surro.png",
+                "alt": "Father and child outdoors representing PeakSpring Japanese water innovation and family longevity."
+              },
+              "order": 5,
+              "video-link": {
+                "url": "https://vimeo.com/1170220269/8cfa65f213?share=copy&fl=sv&fe=ci",
+                "metadata": {
+                  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F1170220269%3Fh%3D8cfa65f213%26app_id%3D122963&dntp=1&display_name=Vimeo&url=https%3A%2F%2Fvimeo.com%2F1170220269%2F8cfa65f213&image=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2129262143-8677542d666d89725687eec40910c28eec39ac1006e8132063324cd9d8414bc7-d_960%3Fregion%3Dus&type=text%2Fhtml&schema=vimeo\" width=\"1080\" height=\"1920\" scrolling=\"no\" title=\"Vimeo embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
+                  "type": "video",
+                  "title": "Leading 3. Origin technology v3",
+                  "width": 1080,
+                  "height": 1920,
+                  "aspectRatio": 0,
+                  "author_name": "Peakspring",
+                  "description": "Covering the origins of PeakSpring's technology, rooted in a Japanese company founded in 1974 and inspired by one of the world's Blue Zones, combined with PeakSpring's personal approach from first consultation to installation.",
+                  "provider_name": "Vimeo",
+                  "thumbnail_url": "https://i.vimeocdn.com/video/2129262143-8677542d666d89725687eec40910c28eec39ac1006e8132063324cd9d8414bc7-d_960?region=us"
+                }
+              },
+              "description": "50 years of Japanese engineering. Born in Okinawa, one of the world's seven Blue Zones. Now brought to your home by PeakSpring.",
+              "blog-summary": "<p>Explore the 50-year Japanese heritage behind PeakSpring's water technology. Learn how Blue Zone inspiration meets medical-grade engineering to deliver the ultimate hydration experience.</p>",
+              "blog-article": "<h2>A Legacy of Purity: The Japanese Heritage of the K8 Kangen Machine</h2><p>To understand the value of the K8 Kangen machine, one must look to its origins. PeakSpring proudly partners with Enagic, a globally recognized Original Equipment Manufacturer (OEM) founded in Okinawa, Japan, in 1974. This rich heritage forms the bedrock of our private health asset class.</p><h3>Inspired by the Blue Zones</h3><p>Okinawa is renowned as one of the world's original 'Blue Zones' regions where people live exceptionally long, healthy lives. The technology behind the K8 was inspired by the pristine, active waters found in nature. Enagic’s engineers successfully replicated this natural phenomenon through advanced electrolysis, allowing you to bring the vitality of Blue Zone hydration directly into your kitchen.</p><h3>The Gold Standard of Manufacturing</h3><p>Unlike competitors who outsource production, every K8 Kangen machine is meticulously assembled in-house in Osaka, Japan. This rigorous oversight ensures adherence to <a href=\"https://www.enagic.com/en/certifications\" target=\"_blank\">ISO 13485 medical device standards</a>, alongside ISO 9001 and ISO 14001. With PeakSpring, you receive not just a product, but a 50-year legacy of uncompromising quality and personal stewardship.</p>",
+              "seo-optimised-title": "Japanese Heritage: 50 Years of Water Innovation | PeakSpring",
+              "seo-meta-description": "Discover the 50-year Japanese heritage behind PeakSpring's exclusive technology. Medical-grade engineering inspired by the world's Blue Zones.",
+              "author": "69b2f3b1ee3519102bbad75d",
+              "show-in-home": true,
+              "show-in-about": true,
+              "show-in-family": false,
+              "show-in-performance": false,
+              "category": null,
+              "name": "Return to Origin ",
+              "slug": "japanese-heritage-water-innovation-blue-zones"
+            }
+          },
+          {
+            "id": "69798387493c019bcbc17102",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-17T14:53:40.758Z",
+            "lastUpdated": "2026-06-17T14:29:48.750Z",
+            "createdOn": "2026-01-27T12:39:56.239Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "potentialswiper-image": {
+                "fileId": "6a2d225ef599d02e921119f8",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d225ef599d02e921119f8_69b7102090200f4952d7f9dd_EP_20251113_4009.jpeg",
+                "alt": "Danielle sharing her PeakSpring personal story about ionized water for family routines."
+              },
+              "order": 4,
+              "video-link": {
+                "url": "https://vimeo.com/1170220121/1e2be694ee?share=copy&fl=sv&fe=ci",
+                "metadata": {
+                  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F1170220121%3Fh%3D1e2be694ee%26app_id%3D122963&dntp=1&display_name=Vimeo&url=https%3A%2F%2Fvimeo.com%2F1170220121%2F1e2be694ee&image=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2129261969-5b8338c48354440456c4be5645a70515758b9ce18b1cf176c098a8f5c82e3bab-d_960%3Fregion%3Dus&type=text%2Fhtml&schema=vimeo\" width=\"1080\" height=\"1920\" scrolling=\"no\" title=\"Vimeo embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
+                  "type": "video",
+                  "title": "Leading 2. Personal story v3",
+                  "width": 1080,
+                  "height": 1920,
+                  "aspectRatio": 0,
+                  "author_name": "Peakspring",
+                  "description": "Danielle shares her personal story as a mother of two and how discovering ionized water changed her daily routines, from cooking and cleaning to drinking water for her family.",
+                  "provider_name": "Vimeo",
+                  "thumbnail_url": "https://i.vimeocdn.com/video/2129261969-5b8338c48354440456c4be5645a70515758b9ce18b1cf176c098a8f5c82e3bab-d_960?region=us"
+                }
+              },
+              "description": "Mother of two. One discovery changed everything from what her family drinks to how they cook and clean.",
+              "blog-summary": "<p>Join Danielle on her personal journey to a healthier, toxin-free home. Discover the profound impact that ionized water has had on her family's daily life, health, and wellbeing.</p>",
+              "blog-article": "<h2 id=\"\">A Mother's Journey to True Purity with the K8 Kangen Machine</h2><p id=\"\">At PeakSpring, our mission is deeply personal. For Danielle, a mother of two, discovering the K8 Kangen machine was a paradigm shift in how she managed her family's health and home environment. It offered a definitive solution to the pervasive issue of modern household toxins.</p><h3 id=\"\">Transforming the Modern Kitchen</h3><p id=\"\">Before the K8, ensuring food purity was a challenge. Now, utilizing the Strong Kangen Water (11.5 pH), Danielle can effortlessly strip oil-based pesticides from fresh produce, revealing the true taste and safety of organic living. The K8’s eight powerful plates ensure that this high-alkaline water is consistently potent and ready on demand.</p><h3 id=\"\">A Foundation of Cellular Health</h3><p id=\"\">Beyond cleaning, the K8 transformed the family's hydration. Drinking antioxidant-rich, micro-clustered Kangen Water means superior cellular absorption and enhanced energy levels. Danielle's story is a testament to the PeakSpring philosophy: investing in the <a id=\"\" href=\"https://www.enagic.com/\" target=\"_blank\">Enagic K8 Kangen machine</a> is the most impactful decision you can make for the daily wellness of your loved ones.</p>",
+              "seo-optimised-title": "A Mother's Discovery: Ionized Water Transformation | PeakSpring",
+              "seo-meta-description": "Listen to Danielle’s compelling personal journey as a mother. Learn how the discovery of ionized Kangen water completely transformed her family's daily routines.",
+              "author": "69b2f3b1ee3519102bbad75d",
+              "show-in-home": true,
+              "show-in-about": true,
+              "show-in-family": true,
+              "show-in-performance": false,
+              "category": null,
+              "name": "My Personal Story",
+              "slug": "personal-story-ionized-water-transformation"
+            }
+          },
+          {
+            "id": "69798387493c019bcbc17101",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-17T14:53:40.758Z",
+            "lastUpdated": "2026-06-17T14:29:59.602Z",
+            "createdOn": "2026-01-27T12:39:56.239Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "potentialswiper-image": {
+                "fileId": "6a2d225edcd93ebf060c94bb",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d225edcd93ebf060c94bb_69b7130c5e7a002f4a3f9311_Gemini.jpeg",
+                "alt": "Woman drinking from a PeakSpring bottle representing an upgrade from tap water to better hydration."
+              },
+              "order": 3,
+              "video-link": {
+                "url": "https://vimeo.com/1170219878/430b7b5c7f?share=copy&fl=sv&fe=ci",
+                "metadata": {
+                  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F1170219878%3Fh%3D430b7b5c7f%26app_id%3D122963&dntp=1&display_name=Vimeo&url=https%3A%2F%2Fvimeo.com%2F1170219878%2F430b7b5c7f&image=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2129261614-857efabee18e8f1409e6b43a95f5d498b00338de88fc75b5de61cc03639026de-d_960%3Fregion%3Dus&type=text%2Fhtml&schema=vimeo\" width=\"1080\" height=\"1920\" scrolling=\"no\" title=\"Vimeo embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
+                  "type": "video",
+                  "title": "Leading 1. Reasons to replace tap water v3",
+                  "width": 1080,
+                  "height": 1920,
+                  "aspectRatio": 0,
+                  "author_name": "Peakspring",
+                  "description": "Personal story about the reason to change tap water in her house. It benefits your immune system, focus, cellular hydration, and has no microplastics. Removes pesticides from your fruit and vegetables.",
+                  "provider_name": "Vimeo",
+                  "thumbnail_url": "https://i.vimeocdn.com/video/2129261614-857efabee18e8f1409e6b43a95f5d498b00338de88fc75b5de61cc03639026de-d_960?region=us"
+                }
+              },
+              "description": "No microplastics. No chlorine. Real cellular hydration, more energy, sharper focus.",
+              "blog-summary": "<p>Is your tap water holding you back? Uncover the compelling health benefits of replacing tap water with medical-grade ionized water, from immune support to microplastic elimination.</p>",
+              "blog-article": "<h2 id=\"\">Why Discerning Households are Replacing Tap Water with the K8 Kangen Machine</h2><p id=\"\">We meticulously curate our diets and fitness routines, yet often accept tap water—laden with trace chemicals and microplastics—as the default. At PeakSpring, we advocate for a definitive upgrade: the K8 Kangen water machine. Here is why upgrading is essential.</p><h3 id=\"\">The Hidden Risks of the Status Quo</h3><p id=\"\">Municipal water treatment is designed for mass safety, not optimal health. It often leaves behind chlorine, heavy metals, and microplastics. Furthermore, tap water exhibits a positive oxidative state, meaning it contributes to cellular aging. The K8 Kangen machine intercepts these issues, filtering impurities before passing the water through eight solid titanium plates for advanced electrolysis.</p><h3 id=\"\">The K8 Health Dividend</h3><p id=\"\">The result is active, hydrogen-rich water that boasts a highly negative ORP. This acts as a powerful antioxidant, supporting your immune system and ensuring profound cellular hydration. The device is manufactured under strict <a id=\"\" href=\"https://www.enagic.com/en/certifications\" target=\"_blank\">ISO 14001 environmental and ISO 13485 medical standards</a>. Investing in a K8 through PeakSpring is not an expense; it is a calculated allocation toward your family's long-term vitality.</p>",
+              "seo-optimised-title": "Why Upgrade Your Hydration: The Truth About Tap Water",
+              "seo-meta-description": "Uncover the undeniable reasons to upgrade from tap water. From eliminating microplastics to enhancing your immune system, see why PeakSpring is the ultimate asset.",
+              "author": "69b2f3b1ee3519102bbad75d",
+              "show-in-home": true,
+              "show-in-about": false,
+              "show-in-family": true,
+              "show-in-performance": true,
+              "category": null,
+              "name": "Reasons To Replace Tap Water",
+              "slug": "upgrade-hydration-replace-tap-water"
+            }
+          },
+          {
+            "id": "69798387493c019bcbc17100",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-17T14:53:40.758Z",
+            "lastUpdated": "2026-06-17T14:30:16.635Z",
+            "createdOn": "2026-01-27T12:39:56.238Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "potentialswiper-image": {
+                "fileId": "6a2d225ff23fadca2c955452",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d225ff23fadca2c955452_69b71558f86ed7221efd8039_twotimeselliott_athlete.jpeg",
+                "alt": "Athlete training image for PeakSpring cellular hydration, recovery, and performance."
+              },
+              "order": 2,
+              "video-link": {
+                "url": "https://vimeo.com/1170219657/40c8f5b82d?share=copy&fl=sv&fe=ci",
+                "metadata": {
+                  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F1170219657%3Fh%3D40c8f5b82d%26app_id%3D122963&dntp=1&display_name=Vimeo&url=https%3A%2F%2Fvimeo.com%2F1170219657%2F40c8f5b82d&image=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2129261395-2bfe9babae277bc084a31dbdcc2eb3bd1f3c09574634eb24116d10bbd0acde48-d_960%3Fregion%3Dus&type=text%2Fhtml&schema=vimeo\" width=\"1080\" height=\"1920\" scrolling=\"no\" title=\"Vimeo embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
+                  "type": "video",
+                  "title": "Founder story 2. Optimize your water v3",
+                  "width": 1080,
+                  "height": 1920,
+                  "aspectRatio": 0,
+                  "author_name": "Peakspring",
+                  "description": "For the health-conscious and active-lifestyle audience, showing how ionized water supports recovery, focus, and energy by hydrating at the cellular level.",
+                  "provider_name": "Vimeo",
+                  "thumbnail_url": "https://i.vimeocdn.com/video/2129261395-2bfe9babae277bc084a31dbdcc2eb3bd1f3c09574634eb24116d10bbd0acde48-d_960?region=us"
+                }
+              },
+              "description": "You track sleep, recovery, and macros. But what about the water fuelling it all? Hydrate at the cellular level.",
+              "blog-summary": "<p>Unlock your peak physical and mental performance. Learn how medical-grade ionized water hydrates at the cellular level, supporting faster recovery and sustained energy.</p>",
+              "blog-article": "<h2 id=\"\">The High-Performer's Edge: Cellular Hydration with the K8 Kangen Machine</h2><p id=\"\">For entrepreneurs, athletes, and high-net-worth individuals, physical and mental performance are non-negotiable assets. PeakSpring provides the ultimate tool to safeguard and enhance these assets: the K8 Kangen water machine.</p><h3 id=\"\">Engineered for Cellular Optimization</h3><p id=\"\">Standard hydration is insufficient for peak performance. The K8 Kangen machine produces water that is micro-clustered and rich in molecular hydrogen. This means the water permeates your cell walls more efficiently, delivering rapid hydration and flushing out acidic metabolic waste generated during intense physical or mental exertion. Medical research indexed on <a id=\"\" href=\"https://pubmed.ncbi.nlm.nih.gov/\" target=\"_blank\">PubMed</a> increasingly points to molecular hydrogen as a novel therapeutic antioxidant.</p><h3 id=\"\">Faster Recovery, Sharper Focus</h3><p id=\"\">The antioxidant properties of Kangen Water combat the oxidative stress that leads to fatigue and inflammation. By integrating the eight-plate powerhouse that is the K8 into your daily regimen, you optimize your recovery times and maintain razor-sharp cognitive focus. PeakSpring invites you to elevate your baseline and experience the undeniable advantage of true cellular hydration.</p>",
+              "seo-optimised-title": "Optimize Your Water: Cellular Hydration for Peak Performance",
+              "seo-meta-description": "Designed for high-performing individuals. Discover how PeakSpring's K8 ionized water optimizes physical recovery, sharpens focus, and elevates energy.",
+              "author": "69b2f3b1ee3519102bbad75d",
+              "show-in-home": true,
+              "show-in-about": false,
+              "show-in-family": false,
+              "show-in-performance": true,
+              "category": null,
+              "name": "Optimize Your Water",
+              "slug": "optimize-water-cellular-hydration-high-performance"
+            }
+          },
+          {
+            "id": "69798387493c019bcbc170ff",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-17T14:53:40.758Z",
+            "lastUpdated": "2026-06-17T14:30:32.383Z",
+            "createdOn": "2026-01-27T12:39:56.238Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "potentialswiper-image": {
+                "fileId": "6a2d225f6fe764f7d973cd89",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d225f6fe764f7d973cd89_69b70ede970e13a739234709_EP_20251113_4004.jpeg",
+                "alt": "Family table scene for PeakSpring chemical-free home water and safer daily routines."
+              },
+              "order": 1,
+              "video-link": {
+                "url": "https://vimeo.com/1170219261/f5f1badce2?share=copy&fl=sv&fe=ci",
+                "metadata": {
+                  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F1170219261%3Fh%3Df5f1badce2%26app_id%3D122963&dntp=1&display_name=Vimeo&url=https%3A%2F%2Fvimeo.com%2F1170219261%2Ff5f1badce2&image=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2129260861-c468b78ae903fe7341c4460b2c573b1672412c57c15361baf1d20d244826e0d1-d_960%3Fregion%3Dus&type=text%2Fhtml&schema=vimeo\" width=\"1080\" height=\"1920\" scrolling=\"no\" title=\"Vimeo embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
+                  "type": "video",
+                  "title": "Founder story 1. Families v3",
+                  "width": 1080,
+                  "height": 1920,
+                  "aspectRatio": 0,
+                  "author_name": "Peakspring",
+                  "description": "Danielle, as a mother, shares how she discovered the impact of the water she uses daily for cooking, washing produce, and drinking. This video shows how the water ionizer removes pesticide residues and replaces household cleaning and skincare products, reducing chemical and microplastic exposure at home.",
+                  "provider_name": "Vimeo",
+                  "thumbnail_url": "https://i.vimeocdn.com/video/2129260861-c468b78ae903fe7341c4460b2c573b1672412c57c15361baf1d20d244826e0d1-d_960?region=us"
+                }
+              },
+              "description": "Pesticide-free produce. Chemical-free cleaning. Microplastic-free drinking water. One machine protects your entire household.",
+              "blog-summary": "<p>Discover how to protect your family from household chemicals and microplastics. Learn how PeakSpring introduces an advanced water ionization technology that creates a cleaner, safer home environment.</p>",
+              "blog-article": "<h2>Transform Your Home into a Sanctuary with PeakSpring and the K8 Kangen Machine</h2><p>In today's world, creating a safe, toxin-free environment for your family is more critical than ever. We often overlook the most fundamental element in our homes: water. At PeakSpring, we believe that true wealth begins with foundational health. That is why we integrate the industry-leading K8 Kangen machine into our exclusive health asset portfolio.</p><h3>The K8 Kangen Advantage for Families</h3><p>The Enagic LeveLuk K8 (Kangen 8) is the pinnacle of medical-grade water ionization. Featuring eight solid platinum-dipped titanium plates, this powerful device transforms ordinary tap water into a versatile tool for your entire household. As demonstrated, the K8 is not just a water filter; it is a comprehensive lifestyle upgrade.</p><h3>Eliminate Pesticides and Harsh Chemicals</h3><p>One of the most remarkable capabilities of the K8 Kangen machine is its production of Strong Kangen Water (11.5 pH). This highly alkaline water emulsifies oil-based pesticide residues on fruits and vegetables something standard tap water simply cannot do. Furthermore, the system produces Strong Acidic Water (2.5 pH), a natural, chemical-free sanitizing agent that replaces toxic household cleaners. Enagic International is certified to ISO 9001, ISO 14001, and ISO 13485 for quality control and medical device manufacturing. By partnering with PeakSpring, you are securing a <a href=\"https://www.enagic.com/en/certifications\" target=\"_blank\">certified medical-grade</a> private asset class that protects your family from microplastics and environmental toxins.</p>",
+              "seo-optimised-title": "Chemical-Free Home: The K8 Kangen Water System | PeakSpring | ERW | Electrolyzed reduced water | Hydrogen Rich Water | Holistic health ",
+              "seo-meta-description": "Protect your family from microplastics and household chemicals. Discover how the PeakSpring K8 Kangen water ionizer creates a safer, pure home environment.",
+              "author": "69b2f3b1ee3519102bbad75d",
+              "show-in-home": true,
+              "show-in-about": false,
+              "show-in-family": true,
+              "show-in-performance": false,
+              "category": null,
+              "name": "A Clean Foundation For Your Family",
+              "slug": "chemical-free-home-k8-kangen-water-system"
+            }
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 13
+        }
+      }
+    },
+    "69798387493c019bcbc1702f": {
+      "metadata": {
+        "id": "69798387493c019bcbc1702f",
+        "displayName": "PH Content Blocks",
+        "singularName": "PH Content Block",
+        "slug": "ph-content-blocks",
+        "createdOn": "2026-01-27T16:42:44.283Z",
+        "lastUpdated": "2026-02-23T12:12:26.318Z"
+      },
+      "schema": {
+        "id": "69798387493c019bcbc1702f",
+        "displayName": "PH Content Blocks",
+        "singularName": "PH Content Block",
+        "slug": "ph-content-blocks",
+        "createdOn": "2026-01-27T16:42:44.283Z",
+        "lastUpdated": "2026-02-23T12:12:26.318Z",
+        "fields": [
+          {
+            "id": "63faa695b891731f0d3155b279f1523f",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "Number",
+            "slug": "order-2",
+            "displayName": "Order",
+            "helpText": null,
+            "validations": {
+              "format": "integer",
+              "precision": 1,
+              "allowNegative": false
+            }
+          },
+          {
+            "id": "c7c6e8fef9fd51098801bdafbafafbdc",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "Image",
+            "slug": "image",
+            "displayName": "Image",
+            "helpText": null,
+            "validations": null
+          },
+          {
+            "id": "b6464761012bad25c94af6225b6eff15",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "PlainText",
+            "slug": "title",
+            "displayName": "Title",
+            "helpText": null,
+            "validations": {
+              "singleLine": true
+            }
+          },
+          {
+            "id": "50d30fe4c94dba8c1cc1806afa24445c",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "PlainText",
+            "slug": "description",
+            "displayName": "Description",
+            "helpText": null,
+            "validations": {
+              "singleLine": true
+            }
+          },
+          {
+            "id": "9fb3990349ebd63a16faa5401da31eff",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "Color",
+            "slug": "bg-color",
+            "displayName": "Bg Color",
+            "helpText": null,
+            "validations": null
+          },
+          {
+            "id": "47e4370b0361cb2ba286c1eb24554583",
+            "isEditable": true,
+            "isRequired": true,
+            "type": "PlainText",
+            "slug": "name",
+            "displayName": "Ph Value",
+            "helpText": null,
+            "validations": {
+              "maxLength": 256
+            }
+          },
+          {
+            "id": "a6f79704cda04e3ce1c858ddf7f50ae0",
+            "isEditable": true,
+            "isRequired": true,
+            "type": "PlainText",
+            "slug": "slug",
+            "displayName": "Slug",
+            "helpText": null,
+            "validations": {
+              "maxLength": 256,
+              "pattern": {},
+              "messages": {
+                "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+                "maxLength": "Must be less than 256 characters"
+              }
+            }
+          }
+        ],
+        "fieldGroups": []
+      },
+      "items": {
+        "items": [
+          {
+            "id": "699c42df5ed7a1b6989d0bf1",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-13T09:27:31.616Z",
+            "lastUpdated": "2026-06-13T09:26:56.651Z",
+            "createdOn": "2026-02-23T12:06:55.469Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "order-2": 13,
+              "image": {
+                "fileId": "699c42dac3d951f0ee621737",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c42dac3d951f0ee621737_image%20587%20(13).avif",
+                "alt": "Strong alkaline pH 11.5 PeakSpring water used to clean produce and remove residue."
+              },
+              "title": "Eat Clean",
+              "description": "A powerful emulsifier. Soak produce for 10 minutes to strip away oil-based pesticides, wax, and grime.",
+              "bg-color": "#44446d",
+              "name": "Strong Alkaline - 11.5",
+              "slug": "strong-alkaline"
+            }
+          },
+          {
+            "id": "699c427856261232c6dedd25",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-13T09:27:31.616Z",
+            "lastUpdated": "2026-06-13T09:26:57.345Z",
+            "createdOn": "2026-02-23T12:05:12.186Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "order-2": 14,
+              "image": {
+                "fileId": "699c426bdc2eca7e065d112d",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c426bdc2eca7e065d112d_image%20587%20(12).avif",
+                "alt": "Food prep pH 11.5 PeakSpring water for meat and fish preparation before cooking."
+              },
+              "title": "Meat & Fish",
+              "description": "Tenderizes meats and draws out gamey flavors from fish. Use as a soak before cooking to enhance texture.",
+              "bg-color": "#515887",
+              "name": "Food Prep - pH 11.5",
+              "slug": "food-prep"
+            }
+          },
+          {
+            "id": "698bc095081a11ad5ea01d92",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-13T09:27:31.616Z",
+            "lastUpdated": "2026-06-13T09:26:57.937Z",
+            "createdOn": "2026-02-10T23:34:45.216Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "order-2": 1,
+              "image": {
+                "fileId": "699c3d05092a1a0d3add42d2",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c3d05092a1a0d3add42d2_Deep%20Sanitise.avif",
+                "alt": "Strong acid pH 2.5 water used by PeakSpring for deep sanitising hands and surfaces."
+              },
+              "title": "Deep Sanitise",
+              "description": "A hospital-grade disinfectant. Kills bacteria on hands, cutting boards, knives, and surfaces instantly.",
+              "bg-color": "#964f44",
+              "name": "Strong Acid - pH 2.5",
+              "slug": "ph-0-1-0"
+            }
+          },
+          {
+            "id": "698bc08949d7b59fa843a03a",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-13T09:27:31.616Z",
+            "lastUpdated": "2026-06-13T09:26:58.772Z",
+            "createdOn": "2026-02-10T23:34:33.482Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "order-2": 2,
+              "image": {
+                "fileId": "699c3dd827891b78ac3eca64",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c3dd827891b78ac3eca64_image%20587%20(1).avif",
+                "alt": "Mildly acidic pH 6.0 PeakSpring water in a spray bottle for streak-free surface cleaning."
+              },
+              "title": "Surface Safe",
+              "description": "A streak-free cleaner for glass, mirrors, and eyeglasses. Removes hard water stains without harsh ammonia.",
+              "bg-color": "#ad8168",
+              "name": "Mildly Acidic - pH 6.0",
+              "slug": "ph-2-5"
+            }
+          },
+          {
+            "id": "698bc02cecae6eba799e736f",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-13T09:27:31.616Z",
+            "lastUpdated": "2026-06-13T09:26:59.364Z",
+            "createdOn": "2026-02-10T23:33:00.644Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "order-2": 8,
+              "image": {
+                "fileId": "699c3e60a9197d08f2fc5a28",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c3e60a9197d08f2fc5a28_image%20587%20(2).avif",
+                "alt": "Neutral pH 7.0 PeakSpring water for gentle pet care and grooming."
+              },
+              "title": "Pet Care",
+              "description": "A gentle grooming rinse for pets. Neutralizes odors and soothes minor skin irritations or hot spots.",
+              "bg-color": "#bd9d6f",
+              "name": "Neutral - pH 7.0",
+              "slug": "mild-acid"
+            }
+          },
+          {
+            "id": "698bc023ad05e4cb129519c8",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-13T09:27:31.616Z",
+            "lastUpdated": "2026-06-13T09:26:59.857Z",
+            "createdOn": "2026-02-10T23:32:51.304Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "order-2": 3,
+              "image": {
+                "fileId": "699c3e69e73d72bf49e745fc",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c3e69e73d72bf49e745fc_image%20587%20(3).avif",
+                "alt": "Weak acid pH 6.0 PeakSpring water used as a gentle facial skin toner."
+              },
+              "title": "Skin Toner",
+              "description": "Matches the natural pH of your skin. Use as a facial mist to tighten pores and firm skin after washing.",
+              "bg-color": "#c5b078",
+              "name": "Weak Acid - pH 6.0",
+              "slug": "weak-acid-ph-4-0"
+            }
+          },
+          {
+            "id": "69798387493c019bcbc1710f",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-13T09:27:31.616Z",
+            "lastUpdated": "2026-06-13T09:27:00.378Z",
+            "createdOn": "2026-01-27T16:52:22.328Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "order-2": 5,
+              "image": {
+                "fileId": "699c3ef672a91b131306f9a2",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c3ef672a91b131306f9a2_image%20587%20(4).avif",
+                "alt": "Beauty water pH 6.0 PeakSpring rinse for shinier, smoother hair."
+              },
+              "title": "Hair Shine",
+              "description": "A natural alternative to conditioner. Rinsing hair with this water closes the cuticle, detangling strands and adding natural shine.",
+              "bg-color": "#bfc185",
+              "name": "Beauty Water - pH 6.0",
+              "slug": "beauty-water-ph-5-0"
+            }
+          },
+          {
+            "id": "69798387493c019bcbc1710e",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-13T09:27:31.616Z",
+            "lastUpdated": "2026-06-13T09:27:00.981Z",
+            "createdOn": "2026-01-27T16:52:22.300Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "order-2": 4,
+              "image": {
+                "fileId": "699c3f27103df43c270f19ef",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c3f27103df43c270f19ef_image%20587%20(5).avif",
+                "alt": "Gentle wash pH 6.0 PeakSpring water for non-stripping face cleansing."
+              },
+              "title": "Face Wash",
+              "description": "A non-stripping water for delicate skin. Perfect for washing your face in the morning to preserve natural oils.",
+              "bg-color": "#bfc185",
+              "name": "Gentle Wash - pH 6.0",
+              "slug": "gentle-wash-ph-6-0"
+            }
+          },
+          {
+            "id": "69798387493c019bcbc1710d",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-13T09:27:31.616Z",
+            "lastUpdated": "2026-06-13T09:27:01.530Z",
+            "createdOn": "2026-01-27T16:52:22.293Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "order-2": 7,
+              "image": {
+                "fileId": "699c408287706767a7c53d27",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c408287706767a7c53d27_image%20587%20(6).avif",
+                "alt": "Neutral pH 7.0 PeakSpring water for mixing baby formula."
+              },
+              "title": "Baby Formula",
+              "description": "Pure, filtered, and chemically neutral. Ideal for mixing formula to support proper nutrient absorption.",
+              "bg-color": "hsla(145.26315789473688, 8.68%, 57.06%, 1.00)",
+              "name": "Neutral - pH 7.0",
+              "slug": "neutral-ph-7-0"
+            }
+          },
+          {
+            "id": "69798387493c019bcbc17110",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-13T09:27:31.616Z",
+            "lastUpdated": "2026-06-13T09:27:01.990Z",
+            "createdOn": "2026-01-27T16:52:22.261Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "order-2": 6,
+              "image": {
+                "fileId": "699c40b2b63f00765d62dbda",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c40b2b63f00765d62dbda_image%20587%20(7).avif",
+                "alt": "Neutral pH 7.0 PeakSpring water for taking medication without alkaline properties."
+              },
+              "title": "Medication",
+              "description": "Neutral water without alkaline properties, so your medication dissolves and absorbs as intended.",
+              "bg-color": "#789093",
+              "name": "Absorption - pH 7.0",
+              "slug": "ph-7-5-absorption"
+            }
+          },
+          {
+            "id": "69798387493c019bcbc1710c",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-13T09:27:31.616Z",
+            "lastUpdated": "2026-06-13T09:27:02.507Z",
+            "createdOn": "2026-01-27T16:51:42.758Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "order-2": 9,
+              "image": {
+                "fileId": "699c40fbe06b74eea55f322a",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c40fbe06b74eea55f322a_image%20587%20(8).avif",
+                "alt": "Acclimate pH 8.5 PeakSpring water for the first step into hydrogen-rich hydration."
+              },
+              "title": "First Sip",
+              "description": "The starting level for hydrogen rich hydration. Drink this for the first two weeks to gently acclimate your body.",
+              "bg-color": "#6a8597",
+              "name": "Acclimate - pH 8.5",
+              "slug": "acclimate"
+            }
+          },
+          {
+            "id": "69798387493c019bcbc1710b",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-13T09:27:31.616Z",
+            "lastUpdated": "2026-06-13T09:27:03.056Z",
+            "createdOn": "2026-01-27T16:51:07.307Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "order-2": 10,
+              "image": {
+                "fileId": "699c411bb8031b1ce9534fbc",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c411bb8031b1ce9534fbc_image%20587%20(9).avif",
+                "alt": "Active pH 9.0 PeakSpring water for daily alkaline balance and hydration."
+              },
+              "title": "Daily Balance",
+              "description": "The standard for daily drinking. Supports your body's alkaline balance and counteracts the acidity of processed food and stress.",
+              "bg-color": "#61799b",
+              "name": "Active - pH 9.0",
+              "slug": "active"
+            }
+          },
+          {
+            "id": "69798387493c019bcbc1710a",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-13T09:27:31.616Z",
+            "lastUpdated": "2026-06-13T09:27:04.573Z",
+            "createdOn": "2026-01-27T16:49:29.496Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "order-2": 11,
+              "image": {
+                "fileId": "699c4172d741ddc1cb9ae5b3",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c4172d741ddc1cb9ae5b3_image%20587%20(10).avif",
+                "alt": "Optimal pH 9.5 PeakSpring water for athletic recovery and deep cellular hydration."
+              },
+              "title": "Peak Hydration",
+              "description": "High-antioxidant water for athletic recovery and deep cellular hydration. The gold standard for daily health.",
+              "bg-color": "#586ea0",
+              "name": "Optimal - pH 9.5",
+              "slug": "optimal"
+            }
+          },
+          {
+            "id": "69798387493c019bcbc17109",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-13T09:27:31.616Z",
+            "lastUpdated": "2026-06-13T09:27:05.358Z",
+            "createdOn": "2026-01-27T16:43:54.923Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "order-2": 12,
+              "image": {
+                "fileId": "699c4309ea9c3b9ffe5cbe1c",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c4309ea9c3b9ffe5cbe1c_image%20587%20(11).avif",
+                "alt": "Tea and coffee pH 9.5 PeakSpring water for richer flavour extraction."
+              },
+              "title": "Flavour Extract",
+              "description": "Penetrates tea leaves and coffee beans deeper. Draws out richer flavor and aroma using less coffee or tea.",
+              "bg-color": "#556393",
+              "name": "Tea & Coffee - pH 9.5",
+              "slug": "tea-coffee"
+            }
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 14
+        }
+      }
+    },
+    "69b2f398ade891d9dc0fb2ea": {
+      "metadata": {
+        "id": "69b2f398ade891d9dc0fb2ea",
+        "displayName": "Authors",
+        "singularName": "Author",
+        "slug": "author",
+        "createdOn": "2026-03-12T17:10:48.952Z",
+        "lastUpdated": "2026-03-12T17:10:49.265Z"
+      },
+      "schema": {
+        "id": "69b2f398ade891d9dc0fb2ea",
+        "displayName": "Authors",
+        "singularName": "Author",
+        "slug": "author",
+        "createdOn": "2026-03-12T17:10:48.952Z",
+        "lastUpdated": "2026-03-12T17:10:49.265Z",
+        "fields": [
+          {
+            "id": "28adc1c79865d10098fa0c8a2786bcbe",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "RichText",
+            "slug": "bio",
+            "displayName": "Bio",
+            "helpText": null,
+            "validations": null
+          },
+          {
+            "id": "2b56a149af2d4ba9c1b911f62bc2413c",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "PlainText",
+            "slug": "bio-summary",
+            "displayName": "Bio Summary",
+            "helpText": null,
+            "validations": {
+              "singleLine": false
+            }
+          },
+          {
+            "id": "33928209ad59f405e22cff764302e1f1",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "Image",
+            "slug": "picture",
+            "displayName": "Picture",
+            "helpText": null,
+            "validations": null
+          },
+          {
+            "id": "2bfbb570510939f0405ba947fdd72c1f",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "Email",
+            "slug": "email",
+            "displayName": "Email",
+            "helpText": null,
+            "validations": null
+          },
+          {
+            "id": "a5f553523a9ef1104e8e654474604c2f",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "Link",
+            "slug": "twitter-profile-link",
+            "displayName": "Twitter Profile Link",
+            "helpText": null,
+            "validations": null
+          },
+          {
+            "id": "f5ffc0f31a64e800d35da1b290f23727",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "Link",
+            "slug": "facebook-profile-link",
+            "displayName": "Facebook Profile Link",
+            "helpText": null,
+            "validations": null
+          },
+          {
+            "id": "fe18af20ccefe9a7e648eddd942d6754",
+            "isEditable": true,
+            "isRequired": true,
+            "type": "PlainText",
+            "slug": "name",
+            "displayName": "Name",
+            "helpText": null,
+            "validations": {
+              "maxLength": 256
+            }
+          },
+          {
+            "id": "faa5a482821e1e8c5df5af1fd2ad1cff",
+            "isEditable": true,
+            "isRequired": true,
+            "type": "PlainText",
+            "slug": "slug",
+            "displayName": "Slug",
+            "helpText": null,
+            "validations": {
+              "maxLength": 256,
+              "pattern": {},
+              "messages": {
+                "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+                "maxLength": "Must be less than 256 characters"
+              }
+            }
+          }
+        ],
+        "fieldGroups": []
+      },
+      "items": {
+        "items": [
+          {
+            "id": "69b2f3b1ee3519102bbad75d",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-13T09:27:31.616Z",
+            "lastUpdated": "2026-06-13T09:27:06.224Z",
+            "createdOn": "2026-03-12T17:11:13.463Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "bio": null,
+              "bio-summary": "Founder, Peakspring",
+              "picture": {
+                "fileId": "6a2d226adcd93ebf060c9ee2",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d226adcd93ebf060c9ee2_69b2f4f2abc482f12d23584b_Screenshot%25202026-03-13%2520at%252000.16.27.png",
+                "alt": "Portrait of Danielle, PeakSpring founder and water consultation specialist."
+              },
+              "email": null,
+              "twitter-profile-link": null,
+              "facebook-profile-link": null,
+              "name": "Danielle",
+              "slug": "danielle"
+            }
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 1
+        }
+      }
+    },
+    "69ca2b738b300f0a4c3b2558": {
+      "metadata": {
+        "id": "69ca2b738b300f0a4c3b2558",
+        "displayName": "Testimonials",
+        "singularName": "Testimonial",
+        "slug": "testimonials",
+        "createdOn": "2026-03-30T07:51:15.441Z",
+        "lastUpdated": "2026-06-17T10:03:35.418Z"
+      },
+      "schema": {
+        "id": "69ca2b738b300f0a4c3b2558",
+        "displayName": "Testimonials",
+        "singularName": "Testimonial",
+        "slug": "testimonials",
+        "createdOn": "2026-03-30T07:51:15.441Z",
+        "lastUpdated": "2026-06-17T10:03:35.418Z",
+        "fields": [
+          {
+            "id": "2044a77248f0e3b5ef6b61e0d0b5ec21",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "PlainText",
+            "slug": "testimonial",
+            "displayName": "Testimonial",
+            "helpText": null,
+            "validations": {
+              "singleLine": false
+            }
+          },
+          {
+            "id": "18da46b168204cde0ac86170b97503c1",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "Image",
+            "slug": "background-image",
+            "displayName": "Background Image",
+            "helpText": null,
+            "validations": null
+          },
+          {
+            "id": "07c605fbfb4dfc9ce95c6ed13b9cc817",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "Option",
+            "slug": "category",
+            "displayName": "Category",
+            "helpText": null,
+            "validations": {
+              "options": [
+                {
+                  "name": "Performance",
+                  "id": "dbeaf67c72e6e4c589bf4ab280d06162"
+                },
+                {
+                  "name": "Family",
+                  "id": "70a225b5b02f09a70df2e2082420cf46"
+                }
+              ]
+            }
+          },
+          {
+            "id": "b6c21a67a0daed4f5ad962e18d4f8321",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "Switch",
+            "slug": "show-in-home",
+            "displayName": "Show in Home",
+            "helpText": null,
+            "validations": null
+          },
+          {
+            "id": "164ccf85dc0b1c7a7a998614147c31c8",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "Switch",
+            "slug": "show-in-about",
+            "displayName": "Show in About",
+            "helpText": null,
+            "validations": null
+          },
+          {
+            "id": "9e93e3b699159e89dd945038f08ca67f",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "Switch",
+            "slug": "show-in-performance",
+            "displayName": "Show in Performance",
+            "helpText": null,
+            "validations": null
+          },
+          {
+            "id": "c4823ac5205c7b69a88647e7f6f4d360",
+            "isEditable": true,
+            "isRequired": false,
+            "type": "Switch",
+            "slug": "show-in-family",
+            "displayName": "Show in Family",
+            "helpText": null,
+            "validations": null
+          },
+          {
+            "id": "37878b58289a03bc37540d829a4c8659",
+            "isEditable": true,
+            "isRequired": true,
+            "type": "PlainText",
+            "slug": "name",
+            "displayName": "Name",
+            "helpText": null,
+            "validations": {
+              "maxLength": 256
+            }
+          },
+          {
+            "id": "12e722bb1f2d484a5e15efaa2c3358aa",
+            "isEditable": true,
+            "isRequired": true,
+            "type": "PlainText",
+            "slug": "slug",
+            "displayName": "Slug",
+            "helpText": null,
+            "validations": {
+              "maxLength": 256,
+              "pattern": {},
+              "messages": {
+                "pattern": "Must be alphanumerical and not contain any spaces or special characters",
+                "maxLength": "Must be less than 256 characters"
+              }
+            }
+          }
+        ],
+        "fieldGroups": []
+      },
+      "items": {
+        "items": [
+          {
+            "id": "69ca2d4ebc79f13a7bb133e3",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-13T09:27:31.616Z",
+            "lastUpdated": "2026-06-13T09:27:06.793Z",
+            "createdOn": "2026-03-30T07:59:10.078Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "testimonial": "“Finally, water my kids actually want to drink. It tastes so light and clean that they’ve stopped asking for juice and started refilling their own bottles.”",
+              "background-image": {
+                "fileId": "6a2d226adcc8f875e2a97b8c",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d226adcc8f875e2a97b8c_69ca2d47bb4564d21d476330_1.avif",
+                "alt": "PeakSpring family testimonial image for Sarah, mom of three."
+              },
+              "category": "70a225b5b02f09a70df2e2082420cf46",
+              "show-in-home": false,
+              "show-in-about": false,
+              "show-in-performance": false,
+              "show-in-family": false,
+              "name": "Sarah, mom of 3",
+              "slug": "sarah-mom-of-3"
+            }
+          },
+          {
+            "id": "69ca2d2ad009cd0af9ed5283",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-13T09:27:31.616Z",
+            "lastUpdated": "2026-06-13T09:27:08.077Z",
+            "createdOn": "2026-03-30T07:58:34.577Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "testimonial": "\"I never thought about the chlorine in our water affecting our dog. Since we started using water from the ionizer for his grooming, his coat is softer than ever and his skin has visibly improved.\"",
+              "background-image": {
+                "fileId": "6a2d226b08e470b35ea06982",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d226b08e470b35ea06982_69ca2d260fecbd993497e31f_2.webp",
+                "alt": "PeakSpring pet care testimonial image for Daan, dog owner."
+              },
+              "category": "70a225b5b02f09a70df2e2082420cf46",
+              "show-in-home": false,
+              "show-in-about": false,
+              "show-in-performance": false,
+              "show-in-family": false,
+              "name": "Daan, dog owner",
+              "slug": "daan-dog-owner"
+            }
+          },
+          {
+            "id": "69ca2d0a851e94a636e1283c",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-13T09:27:31.616Z",
+            "lastUpdated": "2026-06-13T09:27:08.636Z",
+            "createdOn": "2026-03-30T07:58:02.626Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "testimonial": "\"Ironman racing is won or lost in recovery. I started using hydrogen-rich water six weeks out from my last race. My legs felt fresher between sessions and my sleep quality improved noticeably. It is now a non-negotiable part of my prep.\"",
+              "background-image": {
+                "fileId": "6a2d226c82ff4e49be00f969",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d226c82ff4e49be00f969_69ca2d06eea4b487fbdd447b_3.avif",
+                "alt": "PeakSpring performance testimonial image for David, Ironman athlete."
+              },
+              "category": "dbeaf67c72e6e4c589bf4ab280d06162",
+              "show-in-home": false,
+              "show-in-about": false,
+              "show-in-performance": false,
+              "show-in-family": false,
+              "name": "David, Ironman Athlete",
+              "slug": "david-ironman-athlete"
+            }
+          },
+          {
+            "id": "69ca2ce782483e60a4648a51",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-13T09:27:31.616Z",
+            "lastUpdated": "2026-06-13T09:27:09.220Z",
+            "createdOn": "2026-03-30T07:57:27.781Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "testimonial": "\"As a triathlete, I monitor every metric. Sleep, oxygen, recovery. Since installing the ionizer, hydration has become part of my performance system.\"",
+              "background-image": {
+                "fileId": "6a2d226deefef168d47d9a06",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d226deefef168d47d9a06_69ca2cdb265c9d74b1d7c82d_4.avif",
+                "alt": "PeakSpring performance testimonial image for Lucas, Hyrox athlete."
+              },
+              "category": "dbeaf67c72e6e4c589bf4ab280d06162",
+              "show-in-home": false,
+              "show-in-about": false,
+              "show-in-performance": false,
+              "show-in-family": false,
+              "name": "Lucas, Hyrox Athlete",
+              "slug": "lucas-hyrox-athlete"
+            }
+          },
+          {
+            "id": "69ca2cc764107cbeaec32876",
+            "cmsLocaleId": "69798387493c019bcbc16fca",
+            "lastPublished": "2026-06-13T09:27:31.616Z",
+            "lastUpdated": "2026-06-13T09:27:09.755Z",
+            "createdOn": "2026-03-30T07:56:55.732Z",
+            "isArchived": false,
+            "isDraft": false,
+            "fieldData": {
+              "testimonial": "\"I never thought hydration could be a performance variable. Three weeks in, my recovery between training sessions shifted noticeably. I stopped waking up with heavy legs.\"",
+              "background-image": {
+                "fileId": "6a2d226d82c6c5497909b17a",
+                "url": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d226d82c6c5497909b17a_69ca2bedfe29db092cf60d95_5.avif",
+                "alt": "PeakSpring health optimization testimonial image for Jessica."
+              },
+              "category": "dbeaf67c72e6e4c589bf4ab280d06162",
+              "show-in-home": false,
+              "show-in-about": false,
+              "show-in-performance": false,
+              "show-in-family": false,
+              "name": "Jessica, Athlete & Health Optimizer",
+              "slug": "jessica-user-since-2025"
+            }
+          }
+        ],
+        "pagination": {
+          "limit": 100,
+          "offset": 0,
+          "total": 5
+        }
+      }
+    }
+  }
+}
