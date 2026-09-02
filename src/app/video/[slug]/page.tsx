@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/site/Navbar";
 import { Footer } from "@/components/site/Footer";
 import { PotentialSlider } from "@/components/site/HomeSections";
+import { ShareButtons } from "@/components/embeds/ShareControls";
 import { notFound } from "next/navigation";
 import cmsData from "@/content/cms-export.json";
 
@@ -41,6 +42,7 @@ export default async function VideoPage(props: { params: Promise<{ slug: string 
                 </a>
               </div>
             )}
+            <ShareButtons url={`https://peakspring.nl/video/${slug}`} title={video.name || video["seo-optimised-title"]} />
           </div>
         </section>
         <PotentialSlider />

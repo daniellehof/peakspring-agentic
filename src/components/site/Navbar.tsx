@@ -20,18 +20,26 @@ export function Navbar() {
   const pathname = usePathname();
 
   useEffect(() => {
+    let ticking = false;
     const onScroll = () => {
-      const y = window.scrollY;
-      setScrolled(y > 100);
-      if (y > lastScroll && y > 200) setVisible(false);
-      else setVisible(true);
-      setLastScroll(y);
+      if (!ticking) {
+        requestAnimationFrame(() => {
+          const y = window.scrollY;
+          setScrolled(y > 100);
+          // Hide on scroll down, show on scroll up (matches live nav behavior)
+          if (menuOpen) return;
+          if (y > lastScroll && y > 200) setVisible(false);
+          else if (y < lastScroll) setVisible(true);
+          setLastScroll(y);
+          ticking = false;
+        });
+        ticking = true;
+      }
     };
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
-  }, [lastScroll]);
+  }, [lastScroll, menuOpen]);
 
-  const isHome = pathname === "/";
   const textColor = scrolled ? "text-[#175a6b]" : "text-white";
 
   return (
