@@ -318,7 +318,7 @@ export function Antioxidant() {
           <img src={`${CDN}/699c85a0b080723ac197a7f9_Frame%202147225001%20(3)%20(2).avif`} alt="" className="reveal w-full rounded-[20px] object-cover shadow-lg"/>
           <div className="reveal">
             <img src={`${CDN}/699948795d3bd71d6d798a4e_Frame%2082.svg`} alt="ISO 13485" className="mb-5 h-10 w-auto"/>
-            <h2 className="text-4xl font-bold tracking-tight sm:text-5xl"><span className="text-[#b2945e]">The Ultimate Antioxidant.</span><br/>Liquid Immunity.</h2>
+            <h2 className="text-4xl font-bold tracking-tight sm:text-5xl"><span className="text-[#b2945e]">The Ultimate Antioxidant.</span> <br/>Liquid Immunity.</h2>
             <p className="mt-6 text-base leading-relaxed text-[#5d6c7b] sm:text-lg">Chronic inflammation is the silent adversary of longevity and the root cause of most modern diseases. Molecular hydrogen (H₂) is the smallest molecule in existence. It penetrates where other antioxidants cannot, reaching mitochondria and cell nuclei at the deepest level. Backed by over 3,000 peer-reviewed studies, molecular hydrogen is recognized as a selective antioxidant that neutralizes only the most harmful free radicals.</p>
           </div>
         </div>

@@ -113,7 +113,7 @@ export default function PerformancePage() {
       <div className="container-large padding-global">
         <div className="grid gap-12 lg:grid-cols-2">
           <div className="reveal space-y-4">
-            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Built to last.<br/><span className="text-[#b2945e]">Guaranteed</span> to perform.</h2>
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Built to last. <br/><span className="text-[#b2945e]">Guaranteed</span> to perform.</h2>
             <p className="text-base leading-relaxed text-[#5d6c7b]">This is not a gadget or a trend. The ionizer is manufactured to ISO 13485 medical device standards and engineered to last 15–25 years. You are investing in decades of health, performance, and precision.</p>
             <div className="grid grid-cols-2 gap-4 mt-4">
               {[{icon:`${CDN}/69798387493c019bcbc17061_home_grid_icon_2.svg`,t:"ISO 13485 Medical Certification"},{icon:`${CDN}/69798387493c019bcbc17062_home_grid_icon_4.svg`,t:"Dedicated Expert Support"},{icon:`${CDN}/69798387493c019bcbc17060_home_grid_icon_3.svg`,t:"5 Yrs Manufacturer Warranty"},{icon:`${CDN}/69798387493c019bcbc1705f_home_grid_icon_1.svg`,t:"15–25 Year Lifespan"}].map(c=>(
