@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/site/Navbar";
 import { Footer } from "@/components/site/Footer";
+import { WhatsAppWidget } from "@/components/site/WhatsAppWidget";
 import {
   Hero, FeatureGrid, ChoosePath, PeakLiving, PhExperience,
   PotentialSlider, StackedCards, Certificates, Antioxidant,
@@ -24,6 +25,7 @@ export default function Home() {
         <BenefitsSlider />
         <FaqAccordion />
       </main>
+      <WhatsAppWidget />
       <Footer />
     </>
   );

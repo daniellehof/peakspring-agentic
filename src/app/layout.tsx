@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
+import { SmoothScroll } from "@/features/motion/smooth-scroll";
 import "./globals.css";
 
 const montserrat = Montserrat({
@@ -49,6 +50,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body className={`${montserrat.variable} min-h-screen bg-background font-body antialiased`}>
+        <SmoothScroll />
         {children}
       </body>
     </html>
