@@ -1,8 +1,7 @@
 import { Navbar } from "@/components/site/Navbar";
 import { Footer } from "@/components/site/Footer";
-import { WhatsAppWidget } from "@/components/site/WhatsAppWidget";
 import {
-  Hero, FeatureGrid, ChoosePath, PeakLiving, PhExperience,
+  Hero, FeatureGrid, ChoosePath, PeakLiving, FeaturesSection, PhExperience,
   PotentialSlider, StackedCards, Certificates, Antioxidant,
   PerformanceSystem, BenefitsSlider, FaqAccordion,
 } from "@/components/site/HomeSections";
@@ -16,6 +15,7 @@ export default function Home() {
         <FeatureGrid />
         <ChoosePath />
         <PeakLiving />
+        <FeaturesSection />
         <PhExperience />
         <PotentialSlider />
         <StackedCards />
@@ -25,7 +25,6 @@ export default function Home() {
         <BenefitsSlider />
         <FaqAccordion />
       </main>
-      <WhatsAppWidget />
       <Footer />
     </>
   );
