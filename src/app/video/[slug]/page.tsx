@@ -18,8 +18,9 @@ export function generateStaticParams() {
   return Object.keys(videos).map(slug => ({ slug }));
 }
 
-export default function VideoPage({ params }: { params: { slug: string } }) {
-  const video = videos[params.slug];
+export default async function VideoPage(props: { params: Promise<{ slug: string }> }) {
+  const { slug } = await props.params;
+  const video = videos[slug];
   if (!video) notFound();
 
   return (
