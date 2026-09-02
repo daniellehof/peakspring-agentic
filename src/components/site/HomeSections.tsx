@@ -277,8 +277,8 @@ export function StackedCards() {
       <div className="container-large padding-global">
         <h2 className="reveal mb-4 mx-auto max-w-[48rem] text-center text-4xl font-bold tracking-tight sm:text-5xl">How your tap water becomes hydrogen-rich water</h2>
         <div className="mt-14 grid gap-8 lg:grid-cols-2">
-          {[{step:"01",title:"Step 1: Filtration",text:"Source water enters the internal high grade filter, a multi level system designed to prepare your water for electrolysis. Antibacterial granular activated carbon and calcium sulfite remove up to 95% of chlorine, volatile organic compounds, and sediment. What passes through is purified water, free from common contaminants but still rich in the essential minerals your body needs. Antibacterial granular activated carbon and calcium sulfite remove up to 95% of chlorine, volatile organic compounds, and sediment."},
-            {step:"02",title:"Step 2: Electrolysis",text:"The filtered water moves through several electrode plates and membranes, separating into acidic and alkaline streams. The hydrogen ions react with electrons given by the cathode, forming H2, molecular hydrogen. This is the smallest and most bioavailable antioxidant molecule known to science."}].map((c,i)=>(
+          {[{step:"01",title:"Step 1: Filtration",text:"Source water enters the internal high grade filter, a multi level system designed to prepare your water for ionization. Antibacterial granular activated carbon and calcium sulfite remove up to 95% of chlorine, volatile organic compounds, and unwanted tastes or odors. A mechanical barrier captures impurities down to 5 microns. What passes through is purified water, free from common contaminants but still rich in the essential minerals needed for electrolysis."},
+            {step:"02",title:"Step 2: Electrolysis",text:"The filtered water moves through several electrode plates and membranes, separating into acidic and alkaline parts. It is split into OH- (hydroxide ions) and H+ (hydrogen ions). The hydrogen ions react with electrons given by the cathode (– charged electrode), forming H2, molecular hydrogen. Hydroxide ions remain, making the water more alkaline around the cathode. Conversely, acidic water forms around the anode."}].map((c,i)=>(
             <div key={c.step} className="reveal group relative overflow-hidden rounded-[20px] border border-gray-100 bg-white p-8 shadow-sm hover:shadow-lg transition-shadow" style={{position:"sticky",top:`${i===0?22:27}rem`}}>
               <span className="text-6xl font-bold text-[#175a6b]/10">{c.step}</span>
               <h2 className="mt-2 text-2xl font-bold">{c.title}</h2>
@@ -303,7 +303,7 @@ export function Certificates() {
             <p className="mt-6 max-w-lg text-base leading-relaxed text-[#5d6c7b] sm:text-lg">True peace of mind comes from knowing exactly what is in your glass. The ionizer is rigorously tested to ensure every drop meets the highest standards of purity and performance.</p>
             <a href="/about-us" className="mt-8 inline-flex items-center gap-2 rounded-full border border-[#175a6b]/30 px-6 py-3 text-sm font-bold text-[#175a6b] hover:bg-[#175a6b]/5 transition-colors">Discover the Technology →</a>
           </div>
-          <img src={`${CDN}/69798387493c019bcbc17082_performance_image.webp`} alt="" className="reveal w-full rounded-[20px] object-cover shadow-lg"/>
+          <img src={`${CDN}/699c85a0b080723ac197a7f9_Frame%202147225001%20(3)%20(2).avif`} alt="" className="reveal w-full rounded-[20px] object-cover shadow-lg"/>
         </div>
       </div>
     </section>
@@ -316,12 +316,12 @@ export function Antioxidant() {
     <section className="section_home-features py-20 lg:py-28">
       <div className="container-large padding-global">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
-          <img src={`${CDN}/69798387493c019bcbc17082_performance_image.webp`} alt="" className="reveal w-full rounded-[20px] object-cover shadow-lg"/>
+          <img src={`${CDN}/699c85a0b080723ac197a7f9_Frame%202147225001%20(3)%20(2).avif`} alt="" className="reveal w-full rounded-[20px] object-cover shadow-lg"/>
           <div className="reveal">
             <img src={`${CDN}/69798387493c019bcbc1709a_certificate_logo_3.webp`} alt="ISO 13485" className="mb-5 h-10 w-auto"/>
             <h2 className="text-4xl font-bold tracking-tight sm:text-5xl">The Ultimate Antioxidant.</h2>
             <h2 className="text-4xl font-bold tracking-tight sm:text-5xl">Liquid Immunity.</h2>
-            <p className="mt-6 text-base leading-relaxed text-[#5d6c7b] sm:text-lg">Chronic inflammation is the silent adversary of longevity and the root cause of most modern diseases. Molecular hydrogen (H₂) is the smallest molecule in existence. It penetrates where other antioxidants cannot, reaching your cells at the deepest level. Backed by over 3,000 peer-reviewed studies.</p>
+            <p className="mt-6 text-base leading-relaxed text-[#5d6c7b] sm:text-lg">Chronic inflammation is the silent adversary of longevity and the root cause of most modern diseases. Molecular hydrogen (H₂) is the smallest molecule in existence. It penetrates where other antioxidants cannot, reaching mitochondria and cell nuclei at the deepest level. Backed by over 3,000 peer-reviewed studies, molecular hydrogen is recognized as a selective antioxidant that neutralizes only the most harmful free radicals.</p>
           </div>
         </div>
       </div>
