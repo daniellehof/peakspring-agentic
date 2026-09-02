@@ -66,6 +66,13 @@ export default function PerformancePage() {
                 </div>
               ))}
             </div>
+            <div className="flex flex-wrap gap-2 mt-4">
+              {[{icon:`${CDN}/69810e9abad2852d489594c1_lifespan.svg`,t:"Backed by 3,000+ Studies"},{icon:`${CDN}/69798387493c019bcbc17081_truth_icon_2.svg`,t:"Trusted by High Performers"}].map(b=>(
+                <span key={b.t} className="inline-flex items-center gap-2 rounded-full bg-white/80 px-4 py-2 text-xs font-semibold text-[#175a6b] shadow-sm">
+                  <img src={b.icon} alt="" className="h-5 w-5"/>{b.t}
+                </span>
+              ))}
+            </div>
             <a href="/contact" className="mt-4 inline-flex rounded-[4.5rem] bg-[#175a6b] px-5 py-3 text-sm font-semibold text-white hover:bg-[#08303a] transition-colors">Book a Free Consultation</a>
           </div>
           <img src={`${CDN}/6a25d1b345841096e8ab3fa5_runner.png`} alt="" className="reveal w-full rounded-[20px] object-cover shadow-lg"/>
