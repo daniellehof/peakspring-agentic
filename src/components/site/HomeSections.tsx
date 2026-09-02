@@ -115,7 +115,7 @@ export function PeakLiving() {
 export function FeaturesSection() {
   const items = [
     {icon:`${CDN}/697b66349831f5d3ba44d102_features-icons-1.svg`,t:"Personalized 1-on-1 consultation",sub:"Calibration.",d:"We don't just ship a box. Our experts guide you through a setup tailored specifically to your local water quality and personal health goals."},
-    {icon:`${CDN}/697b66f1e74a54d34111304e_features-icons-2.svg`,t:"Automated cleaning &amp; alerts",sub:"Intelligent Purity.",d:"The ionizer monitors its own performance and guides you through every maintenance step, so your water stays pristine year after year."},
+    {icon:`${CDN}/697b66f1e74a54d34111304e_features-icons-2.svg`,t:"Automated cleaning & alerts",sub:"Intelligent Purity.",d:"The ionizer monitors its own performance and guides you through every maintenance step, so your water stays pristine year after year."},
     {icon:`${CDN}/697b66f103c1f444c0b1072a_features-icons-3.svg`,t:"Plug-and-Play installation",sub:"Seamless Integration.",d:"Designed to fit into your kitchen without invasive plumbing. Our team assists in finding the right connection for your specific tap."},
     {icon:`${CDN}/697b66f1c7cc26e0245b9360_features-icons-4.svg`,t:"A higher standard",sub:"",d:"You choose the best in everything. Your water should be no different."},
   ];
@@ -163,9 +163,9 @@ export function PhExperience() {
     {ph:"8.5",use:"First Sip",name:"Acclimate - pH 8.5",text:"The starting level for hydrogen rich hydration. Drink this for the first two weeks to gently acclimate."},
     {ph:"9.0",use:"Daily Balance",name:"Active - pH 9.0",text:"The standard for daily drinking. Supports your body's alkaline balance and counteracts acidic foods."},
     {ph:"9.5",use:"Peak Hydration",name:"Optimal - pH 9.5",text:"High-antioxidant water for athletic recovery and deep cellular hydration. The gold standard for daily use."},
-    {ph:"9.5",use:"Flavour Extract",name:"Tea &amp; Coffee - pH 9.5",text:"Penetrates tea leaves and coffee beans deeper. Draws out richer flavor and aroma using less coffee or tea."},
+    {ph:"9.5",use:"Flavour Extract",name:"Tea & Coffee - pH 9.5",text:"Penetrates tea leaves and coffee beans deeper. Draws out richer flavor and aroma using less coffee or tea."},
     {ph:"11.5",use:"Eat Clean",name:"Strong Alkaline - 11.5",text:"A powerful emulsifier. Soak produce for 10 minutes to strip away oil-based pesticides, wax, and grime."},
-    {ph:"11.5",use:"Meat &amp; Fish",name:"Food Prep - pH 11.5",text:"Tenderizes meats and draws out gamey flavors from fish. Use as a soak before cooking to enhance texture."},
+    {ph:"11.5",use:"Meat & Fish",name:"Food Prep - pH 11.5",text:"Tenderizes meats and draws out gamey flavors from fish. Use as a soak before cooking to enhance texture."},
   ];
   const h=(cX:number)=>{if(!barRef.current)return;const r=barRef.current.getBoundingClientRect();setDragPos(Math.max(0,Math.min(cX-r.left,r.width)));};
 
@@ -318,7 +318,7 @@ export function PerformanceSystem() {
         <h2 className="reveal mb-4 text-center text-4xl font-bold tracking-tight sm:text-5xl">A performance system built for a lifetime</h2>
         <p className="reveal mx-auto mb-12 max-w-xl text-center text-lg text-[#5d6c7b]">This is more than a machine. It is a long-term investment in your health, your focus, and your recovery. Backed by medical grade technology and dedicated expert support from PeakSpring.</p>
         <div className="grid gap-5 sm:grid-cols-3">
-          {["Personalized 1-on-1 Consultation","Ongoing Expert Service &amp; Support","Performance Optimization Checkups"].map((t,i)=>(
+          {["Personalized 1-on-1 Consultation","Ongoing Expert Service & Support","Performance Optimization Checkups"].map((t,i)=>(
             <div key={t} className="reveal rounded-[20px] border border-gray-100 bg-[#fafafa] p-8 text-center hover:-translate-y-1 hover:border-[#b2945e] transition-all">
               <span className="text-3xl font-bold text-[#175a6b]/10">{i+1}</span>
               <p className="mt-2 font-semibold">{t}</p>
@@ -336,7 +336,7 @@ export function PerformanceSystem() {
 /* ═══════════════════════ SECTION 11 — Benefits / Testimonials ═══════════════════════ */
 export function BenefitsSlider() {
   const testimonials = [
-    {q:"I never thought hydration could be a performance variable. Three weeks in, my recovery between sessions is noticeably faster and my resting heart rate dropped by 4 beats.",n:"Jessica, Athlete &amp; Health Optimizer"},
+    {q:"I never thought hydration could be a performance variable. Three weeks in, my recovery between sessions is noticeably faster and my resting heart rate dropped by 4 beats.",n:"Jessica, Athlete & Health Optimizer"},
     {q:"As a triathlete, I monitor every metric. Sleep, oxygen, recovery. Since installing the ionizer, my HRV has improved and I wake up feeling genuinely rested.",n:"Lucas, Hyrox Athlete"},
     {q:"Ironman racing is won or lost in recovery. I started using hydrogen-rich water six weeks out from my last race. I hit a PR by 18 minutes. The recovery was the difference.",n:"David, Ironman Athlete"},
   ];
