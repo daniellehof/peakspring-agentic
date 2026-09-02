@@ -57,6 +57,11 @@
 .padding-global { padding-left: var(--padding-global); padding-right: var(--padding-global); }
 .container-large { max-width: var(--container-max); margin-left: auto; margin-right: auto; }
 
+/* Mobile responsive — matches Webflow 767px/479px breakpoints */
+@media (max-width: 767px) {
+  .padding-global { padding-left: 1.5rem; padding-right: 1.5rem; }
+}
+
 /* Swiper overrides */
 .swiper-pagination-bullet { background: rgba(23, 90, 107, 0.2) !important; opacity: 1 !important; }
 .swiper-pagination-bullet-active { background: var(--color-green) !important; }

@@ -5,14 +5,13 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay, EffectFade } from "swiper/modules";
 import type { Swiper as SwiperType } from "swiper";
-import { useRef as gsapRef, useEffect as gsapEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
 function ScrollReveal({ children, className = "" }: { children: React.ReactNode; className?: string }) {
-  const ref = gsapRef<HTMLDivElement>(null);
+  const ref = useRef<HTMLDivElement>(null);
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
@@ -109,6 +108,7 @@ export function FeatureGrid() {
 // ─── Section 2: Choose Path ───
 export function ChoosePath() {
   return (
+    <ScrollReveal>
     <section className="section_home-choose-path">
       <div className="container-large padding-global py-20">
         <h2 className="mb-10 text-center text-4xl font-bold tracking-tight sm:text-5xl">Where does your journey start?</h2>
@@ -130,12 +130,14 @@ export function ChoosePath() {
         </div>
       </div>
     </section>
+    </ScrollReveal>
   );
 }
 
 // ─── Section 3: PeakLiving ───
 export function PeakLiving() {
   return (
+    <ScrollReveal>
     <section className="section_home-body-peakliving py-20 lg:py-28" style={{ backgroundImage: `url(${CDN}/69798387493c019bcbc17078_body-peakspring.webp)`, backgroundPosition: "50% 0", backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>
       <div className="container-large padding-global">
         <h2 className="mb-4 max-w-2xl text-4xl font-bold tracking-tight sm:text-5xl">Hydration designed for your biology.</h2>
@@ -161,6 +163,7 @@ export function PeakLiving() {
         </div>
       </div>
     </section>
+    </ScrollReveal>
   );
 }
 
