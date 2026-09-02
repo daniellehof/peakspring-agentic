@@ -154,18 +154,18 @@ export function PhExperience() {
   const phImages: Record<string, string> = {
   "Deep Sanitise": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c3d05092a1a0d3add42d2_Deep%20Sanitise.avif",
   "Surface Safe": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c3dd827891b78ac3eca64_image%20587%20(1).avif",
-  "Skin Toner": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c3e60a9197d08f2fc5a28_image%20587%20(2).avif",
-  "Face Wash": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c3e69e73d72bf49e745fc_image%20587%20(3).avif",
+  "Pet Care": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c3e60a9197d08f2fc5a28_image%20587%20(2).avif",
+  "Skin Toner": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c3e69e73d72bf49e745fc_image%20587%20(3).avif",
   "Hair Shine": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c3ef672a91b131306f9a2_image%20587%20(4).avif",
-  "Medication": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c3f27103df43c270f19ef_image%20587%20(5).avif",
+  "Face Wash": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c3f27103df43c270f19ef_image%20587%20(5).avif",
   "Baby Formula": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c408287706767a7c53d27_image%20587%20(6).avif",
-  "Pet Care": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c40b2b63f00765d62dbda_image%20587%20(7).avif",
-  "First Sip": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d226c82ff4e49be00f969_69ca2d06eea4b487fbdd447b_3.avif",
-  "Daily Balance": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d226deefef168d47d9a06_69ca2cdb265c9d74b1d7c82d_4.avif",
-  "Peak Hydration": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d226d82c6c5497909b17a_69ca2bedfe29db092cf60d95_5.avif",
-  "Flavour Extract": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/69b2f917a544cd658e9dd565_69b2f76ed25c6712f4fee815_Fruits.png",
-  "Eat Clean": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/69b2f91760aee78458574a06_699d26188ec347d509d70d7a_EP_20251113_4012.png",
-  "Meat & Fish": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d2259169b3836cba9247b_69b718f9fae37cf37a520604_image%20481.png",
+  "Medication": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c40b2b63f00765d62dbda_image%20587%20(7).avif",
+  "First Sip": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c40fbe06b74eea55f322a_image%20587%20(8).avif",
+  "Daily Balance": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c411bb8031b1ce9534fbc_image%20587%20(9).avif",
+  "Peak Hydration": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c4172d741ddc1cb9ae5b3_image%20587%20(10).avif",
+  "Flavour Extract": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c4309ea9c3b9ffe5cbe1c_image%20587%20(11).avif",
+  "Meat & Fish": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c426bdc2eca7e065d112d_image%20587%20(12).avif",
+  "Eat Clean": "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/699c42dac3d951f0ee621737_image%20587%20(13).avif",
 };
   const levels=[
     {ph:"2.5",use:"Deep Sanitise",name:"Strong Acid - pH 2.5",text:"A hospital-grade disinfectant. Kills bacteria on hands, cutting boards, knives, and surfaces instantly without chemicals.",img:phImages["Deep Sanitise"]},
@@ -225,19 +225,19 @@ export function PhExperience() {
 /* ═══════════════════════ SECTION 6 — Potential Slider ═══════════════════════ */
 export function PotentialSlider() {
   const vids=[
-    {t:"A Clean Foundation For Your Family",d:"Pesticide-free produce. Chemical-free cleaning. Microplastic-free drinking water. One machine protects it all."},
-    {t:"Optimize Your Water",d:"You track sleep, recovery, and macros. But what about the water fuelling it all? Hydrate at the cellular level."},
-    {t:"Reasons To Replace Tap Water",d:"No microplastics. No chlorine. Real cellular hydration, more energy, sharper focus."},
-    {t:"My Personal Story",d:"Mother of two. One discovery changed everything from what her family drinks to how they cook and clean."},
-    {t:"Return to Origin",d:"50 years of Japanese engineering. Born in Okinawa, one of the world's seven Blue Zones."},
-    {t:"Remove pesticides from your produce",d:"Tap water can't touch oil-based pesticides. Ionized water strips them in minutes. See the difference."},
-    {t:"Natural antioxidants",d:"Natural antioxidants in every glass. Strengthening their resilience, even on the days they skip their greens."},
-    {t:"Water for every purpose",d:"Drink it. Cook with it. Clean with it. One system that adapts to every moment of your day."},
-    {t:"True Hydration",d:"Your cells don't just need water. They need water small enough to enter. Discover how hydrogen changes everything."},
-    {t:"One Machine. From Drinking to Cleaning.",d:"Made in Japan. Replaces your cleaning products, skincare, and bottled water all from one machine."},
-    {t:"The Complete Source",d:"One device. Zero chemicals. Watch it replace an entire cabinet of cleaning products and remove pesticides."},
-    {t:"Book Your Free Consultation",d:"Get your questions answered and discover what this machine can do for your daily life."},
-    {t:"The Full Story in Five Minutes",d:"The origin. The technology. Every pH level and its purpose."},
+    {t:"A Clean Foundation For Your Family",img:"https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d225f6fe764f7d973cd89_69b70ede970e13a739234709_EP_20251113_4004.jpeg",d:"Pesticide-free produce. Chemical-free cleaning. Microplastic-free drinking water. One machine protects it all."},
+    {t:"Optimize Your Water",img:"https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d225ff23fadca2c955452_69b71558f86ed7221efd8039_twotimeselliott_athlete.jpeg",d:"You track sleep, recovery, and macros. But what about the water fuelling it all? Hydrate at the cellular level."},
+    {t:"Reasons To Replace Tap Water",img:"https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d225edcd93ebf060c94bb_69b7130c5e7a002f4a3f9311_Gemini.jpeg",d:"No microplastics. No chlorine. Real cellular hydration, more energy, sharper focus."},
+    {t:"My Personal Story",img:"https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d225ef599d02e921119f8_69b7102090200f4952d7f9dd_EP_20251113_4009.jpeg",d:"Mother of two. One discovery changed everything from what her family drinks to how they cook and clean."},
+    {t:"Return to Origin",img:"https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d225d95e473b91674184a_69b7236853b98c89ac2a68fe_evaeva7103_a_father_and_son_sitting_under_an_.jpeg",d:"50 years of Japanese engineering. Born in Okinawa, one of the world's seven Blue Zones."},
+    {t:"Remove pesticides from your produce",img:"https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/69b2f917a544cd658e9dd565_69b2f76ed25c6712f4fee815_Fruits.png",d:"Tap water can't touch oil-based pesticides. Ionized water strips them in minutes. See the difference."},
+    {t:"Natural antioxidants",img:"https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d225b08e470b35ea058d5_69b7140adece13c7d9c26a58_EP_20251113_3998.jpeg",d:"Natural antioxidants in every glass. Strengthening their resilience, even on the days they skip their greens."},
+    {t:"Water for every purpose",img:"https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d225a6792d9efde48c2da_69b717a33d3c647af0cecbf9_Gemini_Generated.png",d:"Drink it. Cook with it. Clean with it. One system that adapts to every moment of your day."},
+    {t:"True Hydration",img:"https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d2259169b3836cba9247b_69b718f9fae37cf37a520604_image%20481.png",d:"Your cells don't just need water. They need water small enough to enter. Discover how hydrogen changes everything."},
+    {t:"One Machine. From Drinking to Cleaning.",img:"https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d2258ebd15f6de4f054a0_69b71d8617add269821a63c4_Gemini_Generated_Image_izik7jizik7jizik.jpeg",d:"Made in Japan. Replaces your cleaning products, skincare, and bottled water all from one machine."},
+    {t:"The Complete Source",img:"https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d22576792d9efde48bea7_69b71f48d9baa13733feca65_u2596555278_Photorealistic_advertising_image_.jpeg",d:"One device. Zero chemicals. Watch it replace an entire cabinet of cleaning products and remove pesticides."},
+    {t:"Book Your Free Consultation",img:"https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/6a2d2256dc09561caec90657_69b719e387bfbb64aef9f092_EP_20251113_3986.jpeg",d:"Get your questions answered and discover what this machine can do for your daily life."},
+    {t:"The Full Story in Five Minutes",img:"https://cdn.prod.website-files.com/69798387493c019bcbc16fd5/69b2f91760aee78458574a06_699d26188ec347d509d70d7a_EP_20251113_4012.png",d:"The origin. The technology. Every pH level and its purpose."}
   ];
   return (
     <section className="section_home-fuelling-potential-slider py-20 lg:py-28">
@@ -249,7 +249,7 @@ export function PotentialSlider() {
             <SwiperSlide key={v.t} className="!w-[300px]">
               <div className="group cursor-pointer overflow-hidden rounded-[20px] bg-black">
                 <div className="relative">
-                  <img src={`${CDN}/69798387493c019bcbc170a6_features-bg.avif`} alt="" className="aspect-video w-full object-cover opacity-70 transition-opacity group-hover:opacity-90"/>
+                  <img src={v.img} alt="" className="aspect-video w-full object-cover opacity-70 transition-opacity group-hover:opacity-90"/>
                   <div className="absolute inset-0 flex items-center justify-center">
                     <div className="flex h-16 w-16 items-center justify-center rounded-full bg-white/20 backdrop-blur-sm group-hover:bg-white/30 transition-colors">
                       <svg className="ml-1 h-8 w-8 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
@@ -355,9 +355,11 @@ export function PerformanceSystem() {
 /* ═══════════════════════ SECTION 11 — Benefits / Testimonials ═══════════════════════ */
 export function BenefitsSlider() {
   const testimonials = [
-    {q:"I never thought hydration could be a performance variable. Three weeks in, my recovery between sessions is noticeably faster and my resting heart rate dropped by 4 beats.",n:"Jessica, Athlete & Health Optimizer"},
-    {q:"As a triathlete, I monitor every metric. Sleep, oxygen, recovery. Since installing the ionizer, my HRV has improved and I wake up feeling genuinely rested.",n:"Lucas, Hyrox Athlete"},
-    {q:"Ironman racing is won or lost in recovery. I started using hydrogen-rich water six weeks out from my last race. I hit a PR by 18 minutes. The recovery was the difference.",n:"David, Ironman Athlete"},
+    {q:"Finally, water my kids actually want to drink. It tastes so light and clean that they've stopped asking for juice and soft drinks. As a mom, that's the biggest win I could ask for.",n:"Sarah, mom of 3"},
+    {q:"I never thought about the chlorine in our water affecting our dog. Since we started using water from the ionizer for his bowl, his coat is noticeably shinier and he drinks more throughout the day.",n:"Daan, dog owner"},
+    {q:"Ironman racing is won or lost in recovery. I started using hydrogen-rich water six weeks out from my last race. My legs felt fresher on long runs and my sleep quality improved. I hit a personal best by over 20 minutes.",n:"David, Ironman Athlete"},
+    {q:"As a triathlete, I monitor every metric. Sleep, oxygen, recovery. Since installing the ionizer, hydration has become part of my performance stack. My HRV trend is consistently higher and I wake up feeling genuinely recovered.",n:"Lucas, Hyrox Athlete"},
+    {q:"I never thought hydration could be a performance variable. Three weeks in, my recovery between training sessions shifted noticeably. Less soreness, more energy, and I'm sleeping deeper than I have in years.",n:"Jessica, Athlete & Health Optimizer"},
   ];
   return (
     <section className="section_home-benefits py-20 lg:py-28 bg-[#f8fdff]">
