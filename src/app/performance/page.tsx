@@ -55,7 +55,7 @@ export default function PerformancePage() {
       <div className="container-large padding-global">
         <div className="grid gap-12 lg:grid-cols-2">
           <div className="reveal space-y-4">
-            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Performance Impact: What the <span className="text-[#b2945e]">Research</span> shows</h2>
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Performance Impact: What the <span className="text-[#b2945e]">Research</span> shows.</h2>
             <p className="text-sm text-[#b2945e]">All figures from peer-reviewed studies on trained athletes. Full sources available in our Engineered Hydration Report.</p>
             <div className="grid grid-cols-2 gap-4 mt-4">
               {[{icon:`${CDN}/697b66f103c1f444c0b1072a_features-icons-3.svg`,stat:"Peak power output",label:"↓ Blood Lactate Faster Recovery"},{icon:`${CDN}/69798387493c019bcbc1707a_peakliving_icon_2.svg`,stat:"Mean Power Output",label:"Less Effort, Same Output"}].map(c=>(
