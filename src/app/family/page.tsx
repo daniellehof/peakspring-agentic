@@ -13,7 +13,7 @@ const CMS = "https://cdn.prod.website-files.com/69798387493c019bcbc16fd5";
 export default function FamilyPage() {
   return (<><Navbar /><main>
     {/* Hero */}
-    <div className="relative z-0 flex h-svh min-h-svh flex-col justify-end overflow-hidden">
+    <section className="relative z-0 flex h-svh min-h-svh flex-col justify-end overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img src={`${CDN}/69798387493c019bcbc17058_home-hero.webp`} alt="" className="absolute inset-0 h-full w-full object-cover"/>
         <div className="absolute inset-0 bg-[#175a6b]/65"/>
@@ -27,7 +27,7 @@ export default function FamilyPage() {
         </div>
         <a href="/contact" className="inline-flex rounded-[4.5rem] bg-[#b2945e] px-5 py-3 text-[1.0625rem] font-semibold text-white hover:bg-[#9a7c4a] transition-colors shadow-xl">Book a Free Consultation</a>
       </div>
-    </div>
+    </section>
 
     <FeatureGrid />
 
