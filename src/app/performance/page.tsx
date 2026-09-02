@@ -1,7 +1,6 @@
 import { Navbar } from "@/components/site/Navbar";
 import { Footer } from "@/components/site/Footer";
 import { FeatureGrid, PhExperience, BenefitsSlider, FaqAccordion } from "@/components/site/HomeSections";
-import { WhatsAppWidget } from "@/components/site/WhatsAppWidget";
 
 export default function PerformancePage() {
   return (<><Navbar /><main>
@@ -24,5 +23,5 @@ export default function PerformancePage() {
     <PhExperience />
     <BenefitsSlider />
     <FaqAccordion />
-  </main><WhatsAppWidget /><Footer /></>);
+  </main><Footer /></>);
 }

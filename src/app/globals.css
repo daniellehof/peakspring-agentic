@@ -1,74 +1,70 @@
 @import "tailwindcss";
-/* PeakSpring Design Tokens — exact from live CSS */
-:root {
-  --font-body: 'Montserrat', Arial, sans-serif;
-  --font-heading: 'Montserrat', Arial, sans-serif;
-  --color-green: #175a6b;
-  --color-green-dark: #08303a;
-  --color-gold-dust: #b2945e;
-  --color-ice-sky: #f8fdff;
-  --color-background: #fafafa;
-  --color-secondary-background: #f6fafb;
-  --color-white: #ffffff;
-  --color-muted: #f1efee;
-  --color-text: #175a6b;
-  --color-text-muted: #5d6c7b;
-  --radius-small: 12px;
-  --radius-medium: 16px;
-  --radius-large: 20px;
-  --radius-round: 100%;
-  --padding-global: 3.75rem;
-  --container-max: 82.5rem;
-  --transition-fast: 0.2s ease;
-  --transition-default: 0.3s ease;
-}
 @import "swiper/css";
-@import "swiper/css/navigation";
+@import "swiper/css/navigation"; 
 @import "swiper/css/pagination";
 
 @custom-variant dark (&:is(.dark *));
 
 @layer base {
   body {
-    background-color: var(--color-background);
-    color: var(--color-text);
-    font-family: var(--font-body);
+    background-color: #fafafa;
+    color: #175a6b;
+    font-family: 'Montserrat', Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
   }
-
   h1, h2, h3, h4, h5, h6 { font-weight: 700; }
+  b, strong { font-weight: 700; }
 }
 
-/* Webflow section classes preserved for parity */
-.section_features_icon { background-color: var(--color-background); }
-.section_home-choose-path { background-color: var(--color-white); }
-.section_home-body-peakliving { background-color: var(--color-ice-sky); }
-.section_home-features { background-color: var(--color-muted); position: relative; }
+/* Section backgrounds — exact Webflow match */
+.section_features_icon { background-color: #fafafa; }
+.section_home-choose-path { background-color: #fff; }
+.section_home-body-peakliving { background-color: #f8fdff; }
+.section_home-features { background-color: #f1efee; position: relative; }
 .section_home-ph { width: 100%; overflow: hidden; }
 .section_home-fuelling-potential-slider { width: 100%; overflow: hidden; }
-.section_stacked-card { background-color: var(--color-white); }
-.section_home-certificates { background-color: var(--color-white); }
-.section_home-performance { background-color: var(--color-white); }
+.section_stacked-card { background-color: #fff; }
+.section_home-certificates { background-color: #fff; }
+.section_home-performance { background-color: #fff; }
 .section_home-benefits { width: 100%; max-width: 100%; overflow: hidden; }
-.section_faq { background-color: var(--color-white); }
+.section_faq { background-color: #fff; }
 
-/* Utility classes matching Webflow */
-.padding-global { padding-left: var(--padding-global); padding-right: var(--padding-global); }
-.container-large { max-width: var(--container-max); margin-left: auto; margin-right: auto; }
+.padding-global { padding-left: 3.75rem; padding-right: 3.75rem; }
+.container-large { max-width: 82.5rem; margin-left: auto; margin-right: auto; }
 
-/* Mobile responsive — matches Webflow 767px/479px breakpoints */
 @media (max-width: 767px) {
-  .padding-global { padding-left: 1.5rem; padding-right: 1.5rem; }
+  .padding-global { padding-left: 1.25rem; padding-right: 1.25rem; }
 }
 
-/* Swiper overrides */
-.swiper-pagination-bullet { background: rgba(23, 90, 107, 0.2) !important; opacity: 1 !important; }
-.swiper-pagination-bullet-active { background: var(--color-green) !important; }
+.swiper-pagination-bullet { background: rgba(23,90,107,0.2) !important; opacity: 1 !important; }
+.swiper-pagination-bullet-active { background: #175a6b !important; }
 
-html { scroll-behavior: smooth; }
+/* Pure CSS scroll reveal — no JS needed */
+@keyframes reveal {
+  from { opacity: 0; transform: translateY(80px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.reveal {
+  animation: reveal 0.8s ease-out both;
+  animation-timeline: view();
+  animation-range: entry 10% cover 25%;
+}
+
+/* pH drag gradient */
+.ph-gradient-bar {
+  background: linear-gradient(90deg, 
+    #964f44 0%, #bc8267 7%, #c99e6d 14%, #c5b078 22%,
+    #c0c283 29%, #aab589 36%, #94a88e 43%, #819c91 50%,
+    #6e9194 57%, #5c8699 64%, #547a9e 71%, #4c6ea3 79%,
+    #556394 86%, #4d578a 93%, #42426f 100%
+  );
+  border-radius: 77.5px;
+  height: 5.125rem;
+  box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+}
 
 @media (prefers-reduced-motion: reduce) {
+  .reveal { animation: none; opacity: 1; transform: none; }
   html { scroll-behavior: auto; }
-  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 }

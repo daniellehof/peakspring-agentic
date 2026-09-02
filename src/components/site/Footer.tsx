@@ -6,7 +6,7 @@ export function Footer() {
   return (
     <footer className="relative min-h-screen overflow-hidden">
       <img
-        src="/source-assets/69798387493c019bcbc17063_home_footer_bg.webp"
+        src="https://cdn.prod.website-files.com/69798387493c019bcbc16fc7/69798387493c019bcbc17063_home_footer_bg.webp"
         alt=""
         className="absolute inset-0 z-[1] h-full w-full object-cover"
       />
@@ -29,7 +29,7 @@ export function Footer() {
 
           <div className="grid gap-10 border-t border-white/10 pt-10 sm:grid-cols-2 lg:grid-cols-4">
             <div>
-              <img src="/source-assets/69798387493c019bcbc17034_logo.webp" alt="PeakSpring" className="mb-4 h-10 w-auto" />
+              <img src="https://cdn.prod.website-files.com/69798387493c019bcbc16fc7/69798387493c019bcbc17034_logo.webp" alt="PeakSpring" className="mb-4 h-10 w-auto" />
               <p className="text-sm leading-relaxed text-white/60">Medical-grade hydrogen-rich water ionizers. Designed in the Netherlands.</p>
             </div>
             <div>

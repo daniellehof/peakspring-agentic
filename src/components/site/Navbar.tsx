@@ -54,8 +54,8 @@ export function Navbar() {
       <div className="mx-auto flex h-[72px] max-w-[82.5rem] items-center justify-between px-[3.75rem]">
         <Link href="/" className="mr-auto flex w-[11.1875rem] items-center gap-2">
           <img
-            src="/source-assets/69798387493c019bcbc17034_logo.webp"
-            alt="PeakSpring logo"
+            src="https://cdn.prod.website-files.com/69798387493c019bcbc16fc7/69798387493c019bcbc17034_logo.webp"
+            alt="PeakSpring"
             className="h-10 w-auto shrink-0"
           />
           <div className="flex flex-col leading-tight">
